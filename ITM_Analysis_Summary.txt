@@ -1,699 +1,567 @@
 ITM PUT ANALYSIS SUMMARY REPORT
-Generated: 2025-09-19 11:42:58
+Generated: 2025-09-24 00:11:45
 ================================================================================
 
 ANALYSIS OVERVIEW:
 ==================
-- Total options records processed: 23,639
-- ITM puts meeting all criteria: 488
-- Total premium value of ITM puts: $2,162,104,232
-- Average premium per ITM put: $4,430,541
-- Analysis efficiency: 2.06% of records qualified
+- Total options records processed: 39,427
+- ITM puts meeting all criteria: 238
+- Total premium value of ITM puts: $211,487,040
+- Average premium per ITM put: $888,601
+- Analysis efficiency: 0.60% of records qualified
 
 FILTERING RESULTS:
 ==================
-- Initial unique tickers with ITM puts: 95
-- Tickers excluded by RSI filter: 31
-- Final qualifying tickers: 64
-- Tickers with associated call activity: 57
-- Call activity rate: 89.1%
+- Initial unique tickers with ITM puts: 63
+- Tickers excluded by RSI filter: 11
+- Final qualifying tickers: 52
+- Tickers with associated call activity: 52
+- Call activity rate: 100.0%
 
 TOP 10 ITM PUTS BY PREMIUM VALUE:
 =================================
-Symbol  Strike     Spot    Premium ExpirationDate CreatedDate
-  LULU   320.0 167.9701 85456000.0      1/16/2026   9/18/2025
-  LULU   250.0 168.0370 65400000.0      9/19/2025   9/18/2025
-  LULU   350.0 167.9701 54480000.0      1/16/2026   9/18/2025
-   UNH   540.0 335.9200 40890000.0      9/19/2025   9/18/2025
-  ADBE   570.0 367.5800 39179000.0      1/16/2026   9/18/2025
-  LULU   310.0 167.9701 36361000.0      9/19/2025   9/18/2025
-  ADBE   570.0 367.5600 36288000.0      1/16/2026   9/18/2025
-   UNH   540.0 336.1600 32208750.0      9/19/2025   9/18/2025
-   TGT   110.0  88.8100 31725000.0      9/19/2025   9/18/2025
-  LULU   310.0 168.0370 31273000.0      9/19/2025   9/18/2025
+Symbol  Strike    Spot    Premium ExpirationDate CreatedDate
+  LULU   320.0 173.825 47004375.0      1/16/2026   9/23/2025
+  LULU   350.0 173.825 21060000.0      1/16/2026   9/23/2025
+   TTD   110.0  46.750 10112000.0      1/16/2026   9/23/2025
+   PDD   130.0 128.000  6041676.0     10/24/2025   9/23/2025
+   APP   700.0 663.640  5641860.0     12/18/2026   9/23/2025
+    BE   105.0  84.920  5382000.0      9/18/2026   9/23/2025
+    BE   105.0  84.940  5375500.0      9/18/2026   9/23/2025
+   PDD   130.0 127.300  4787200.0     10/24/2025   9/23/2025
+  FSLR   280.0 221.120  2800000.0      1/15/2027   9/23/2025
+  NVDA   180.0 179.065  2561620.0      9/18/2026   9/23/2025
 
 FINAL QUALIFYING TICKERS WITH CURRENT PRICES:
 ==============================================
-AAPL: Current Price $238.075, 10 ITM puts, Total Premium $9,724,653
-ADBE: Current Price $367.58, 10 ITM puts, Total Premium $123,996,425
-AEM: Current Price $152.47, 1 ITM puts, Total Premium $230,000
-AMAT: Current Price $186.33, 1 ITM puts, Total Premium $266,660
-AMD: Current Price $157.64, 16 ITM puts, Total Premium $97,792,313
-AMZN: Current Price $232.272, 2 ITM puts, Total Premium $919,009
-APLD: Current Price $20.085, 1 ITM puts, Total Premium $269,500
-APP: Current Price $618.83, 1 ITM puts, Total Premium $428,160
-ARM: Current Price $148.33, 1 ITM puts, Total Premium $225,756
-ASML: Current Price $929.5565, 1 ITM puts, Total Premium $437,250
-AVGO: Current Price $348.0542, 1 ITM puts, Total Premium $330,000
-BABA: Current Price $162.965, 5 ITM puts, Total Premium $1,705,051
-BAC: Current Price $52.0376, 1 ITM puts, Total Premium $246,210
-BE: Current Price $82.545, 3 ITM puts, Total Premium $1,477,840
-BIDU: Current Price $134.135, 1 ITM puts, Total Premium $371,800
-BMNR: Current Price $59.99, 1 ITM puts, Total Premium $283,050
-BP: Current Price $34.6315, 2 ITM puts, Total Premium $505,975
-CHTR: Current Price $262.455, 5 ITM puts, Total Premium $81,772,000
-COCO: Current Price $39.77, 1 ITM puts, Total Premium $225,410
-COIN: Current Price $349.257, 6 ITM puts, Total Premium $8,141,775
-CRCL: Current Price $139.8, 3 ITM puts, Total Premium $3,379,161
-CRWV: Current Price $119.88, 1 ITM puts, Total Premium $201,805
-CVNA: Current Price $391.4066, 1 ITM puts, Total Premium $942,912
-DVN: Current Price $34.8499, 3 ITM puts, Total Premium $1,995,000
-ELV: Current Price $315.3001, 10 ITM puts, Total Premium $25,809,000
-ENPH: Current Price $38.7999, 3 ITM puts, Total Premium $4,769,700
-ETH: Current Price $43.63, 1 ITM puts, Total Premium $640,000
-FIGR: Current Price $39.685, 2 ITM puts, Total Premium $750,463
-FND: Current Price $87.1989, 1 ITM puts, Total Premium $247,173
-FUTU: Current Price $173.37, 2 ITM puts, Total Premium $596,620
-GLW: Current Price $79.3101, 1 ITM puts, Total Premium $287,100
-HOOD: Current Price $122.385, 1 ITM puts, Total Premium $552,470
-HUT: Current Price $38.07, 1 ITM puts, Total Premium $302,250
-IBM: Current Price $264.645, 8 ITM puts, Total Premium $10,153,000
-INTC: Current Price $30.6499, 9 ITM puts, Total Premium $2,587,261
-JBL: Current Price $223.1221, 1 ITM puts, Total Premium $4,635,000
-JNJ: Current Price $175.12, 1 ITM puts, Total Premium $302,500
-LEN: Current Price $132.625, 1 ITM puts, Total Premium $502,500
-LLY: Current Price $761.4824, 9 ITM puts, Total Premium $43,844,500
-MARA: Current Price $19.05, 2 ITM puts, Total Premium $429,127
-META: Current Price $779.605, 3 ITM puts, Total Premium $1,070,150
-MO: Current Price $64.375, 2 ITM puts, Total Premium $654,294
-MRVL: Current Price $74.585, 4 ITM puts, Total Premium $1,993,146
-MSFT: Current Price $508.43, 3 ITM puts, Total Premium $1,491,824
-MU: Current Price $168.56, 4 ITM puts, Total Premium $1,531,430
-NBIS: Current Price $94.8, 1 ITM puts, Total Premium $275,000
-NFLX: Current Price $1206.27, 2 ITM puts, Total Premium $436,649
-NVO: Current Price $61.8148, 1 ITM puts, Total Premium $227,000
-OKLO: Current Price $104.79, 5 ITM puts, Total Premium $2,559,573
-ORCL: Current Price $298.2866, 3 ITM puts, Total Premium $924,285
-OXY: Current Price $47.28, 2 ITM puts, Total Premium $1,661,750
-PAAS: Current Price $34.95, 1 ITM puts, Total Premium $206,500
-PDD: Current Price $134.265, 2 ITM puts, Total Premium $2,146,250
-PLTR: Current Price $177.53, 7 ITM puts, Total Premium $8,328,724
-PM: Current Price $162.2704, 4 ITM puts, Total Premium $15,545,000
-PYPL: Current Price $69.57, 1 ITM puts, Total Premium $3,168,000
-RKLB: Current Price $48.2726, 1 ITM puts, Total Premium $4,491,600
-SNDK: Current Price $98.065, 1 ITM puts, Total Premium $469,987
-TMO: Current Price $479.845, 5 ITM puts, Total Premium $9,798,400
-TSLA: Current Price $416.93, 48 ITM puts, Total Premium $28,652,283
-TTWO: Current Price $251.075, 1 ITM puts, Total Premium $623,040
-UNH: Current Price $336.1267, 35 ITM puts, Total Premium $380,174,167
-WMT: Current Price $104.1735, 2 ITM puts, Total Premium $468,950
-WOLF: Current Price $2.86, 1 ITM puts, Total Premium $1,005,086
+AAPL: Current Price $254.12, 8 ITM puts, Total Premium $5,438,096
+AFRM: Current Price $87.065, 3 ITM puts, Total Premium $725,150
+AMAT: Current Price $201.5758, 1 ITM puts, Total Premium $446,250
+AMD: Current Price $162.255, 3 ITM puts, Total Premium $1,251,028
+AMZN: Current Price $220.119, 8 ITM puts, Total Premium $3,322,199
+APLD: Current Price $24.6635, 3 ITM puts, Total Premium $1,064,000
+APP: Current Price $663.64, 1 ITM puts, Total Premium $5,641,860
+AVGO: Current Price $338.1284, 3 ITM puts, Total Premium $1,332,766
+BABA: Current Price $164.945, 2 ITM puts, Total Premium $615,920
+BE: Current Price $76.67, 4 ITM puts, Total Premium $11,213,642
+BIDU: Current Price $129.94, 1 ITM puts, Total Premium $234,715
+BMNR: Current Price $52.91, 2 ITM puts, Total Premium $914,276
+C: Current Price $104.93, 3 ITM puts, Total Premium $812,455
+CLSK: Current Price $14.3877, 4 ITM puts, Total Premium $1,435,903
+COIN: Current Price $330.97, 4 ITM puts, Total Premium $4,770,385
+COST: Current Price $935.06, 1 ITM puts, Total Premium $291,500
+CRWD: Current Price $488.49, 1 ITM puts, Total Premium $364,450
+ELV: Current Price $322.99, 1 ITM puts, Total Premium $283,078
+FSLR: Current Price $221.12, 1 ITM puts, Total Premium $2,800,000
+GLW: Current Price $79.59, 1 ITM puts, Total Premium $205,020
+GM: Current Price $59.105, 3 ITM puts, Total Premium $776,317
+GOOG: Current Price $251.7, 1 ITM puts, Total Premium $1,050,000
+GS: Current Price $804.91, 4 ITM puts, Total Premium $1,134,650
+HOOD: Current Price $126.375, 2 ITM puts, Total Premium $761,750
+INTC: Current Price $29.381, 3 ITM puts, Total Premium $857,622
+IONQ: Current Price $73.84, 3 ITM puts, Total Premium $1,525,700
+IREN: Current Price $40.9144, 5 ITM puts, Total Premium $1,748,039
+JPM: Current Price $314.61, 1 ITM puts, Total Premium $312,000
+KGC: Current Price $24.685, 1 ITM puts, Total Premium $245,220
+LCID: Current Price $23.665, 1 ITM puts, Total Premium $708,000
+LEN: Current Price $122.33, 1 ITM puts, Total Premium $300,000
+LUV: Current Price $33.325, 4 ITM puts, Total Premium $1,178,575
+META: Current Price $756.01, 10 ITM puts, Total Premium $3,866,003
+MRVL: Current Price $74.4899, 1 ITM puts, Total Premium $1,881,000
+MU: Current Price $168.54, 1 ITM puts, Total Premium $246,225
+NFLX: Current Price $1216.95, 1 ITM puts, Total Premium $367,513
+OPEN: Current Price $7.295, 4 ITM puts, Total Premium $5,241,066
+ORCL: Current Price $311.435, 9 ITM puts, Total Premium $2,885,602
+PDD: Current Price $129.92, 3 ITM puts, Total Premium $12,313,876
+PG: Current Price $151.25, 1 ITM puts, Total Premium $200,205
+PL: Current Price $11.8565, 1 ITM puts, Total Premium $209,902
+PLTR: Current Price $181.9, 4 ITM puts, Total Premium $1,614,429
+QCOM: Current Price $168.72, 1 ITM puts, Total Premium $282,000
+RGTI: Current Price $31.2871, 5 ITM puts, Total Premium $1,119,577
+SHOP: Current Price $152.14, 2 ITM puts, Total Premium $888,060
+SOFI: Current Price $28.9049, 1 ITM puts, Total Premium $211,372
+TSLA: Current Price $425.81, 65 ITM puts, Total Premium $25,046,302
+UAL: Current Price $105.63, 2 ITM puts, Total Premium $509,610
+UNH: Current Price $348.15, 5 ITM puts, Total Premium $2,020,990
+W: Current Price $83.85, 1 ITM puts, Total Premium $416,000
+WMB: Current Price $61.615, 1 ITM puts, Total Premium $327,760
+WMT: Current Price $101.655, 1 ITM puts, Total Premium $202,395
 
 CALL ACTIVITY ANALYSIS:
 =======================
 
-AAPL (Current Price: $238.075):
-  Calls of strike 230,235,237.5,240,242.5,245,247.5,250 were bought for date 09/26/2025. Calls of strike 230,235,240,245,250,260 were bought for date 10/03/2025. Calls of strike 245,250,255 were bought for date 10/10/2025. Calls of strike 210,225,240,250,255,260 were bought for date 10/17/2025. Calls of strike 260,265 were bought for date 10/24/2025. Calls of strike 260 were bought for date 10/31/2025. Calls of strike 235,240,250 were bought for date 11/21/2025. Calls of strike 175,240,245,255,265 were bought for date 12/19/2025. Calls of strike 235,240,275,300 were bought for date 01/16/2026. Calls of strike 265 were bought for date 02/20/2026. Calls of strike 240,250,260,270 were bought for date 03/20/2026. Calls of strike 235,265,290,300 were bought for date 06/18/2026. Calls of strike 230 were bought for date 09/18/2026. Calls of strike 250,260 were bought for date 12/18/2026
+AAPL (Current Price: $254.12):
+  Calls of strike 240,247.5,250,252.5,255,257.5,260,262.5,265,270 were bought for date 09/26/2025. Calls of strike 240,250,255,257.5,260,262.5,265,270,275,280 were bought for date 10/03/2025. Calls of strike 250,255,265,270 were bought for date 10/10/2025. Calls of strike 235,240,245,250,252.5,255,257.5,260,262.5,265,270,275,280 were bought for date 10/17/2025. Calls of strike 250,255,260,270,285,290,300 were bought for date 10/24/2025. Calls of strike 270,280,290,305 were bought for date 10/31/2025. Calls of strike 230,235,245,250,255,260,265,270,275,280,290,300 were bought for date 11/21/2025. Calls of strike 240,245,250,255,260,280,300,310 were bought for date 12/19/2025. Calls of strike 250,255,260,270,280,285,300,310,320,350 were bought for date 01/16/2026. Calls of strike 320 were bought for date 02/20/2026. Calls of strike 250,280 were bought for date 03/20/2026. Calls of strike 300,350 were bought for date 05/15/2026. Calls of strike 240,255 were bought for date 06/18/2026. Calls of strike 260 were bought for date 08/21/2026. Calls of strike 400 were bought for date 09/18/2026. Calls of strike 220,260 were bought for date 12/18/2026
 
-ADBE (Current Price: $367.58):
-  Calls of strike 377.5 were bought for date 09/26/2025. Calls of strike 400 were bought for date 10/17/2025. Calls of strike 410 were bought for date 11/21/2025. Calls of strike 400,420,450 were bought for date 12/19/2025. Calls of strike 480 were bought for date 03/20/2026
+AFRM (Current Price: $87.065):
+  Calls of strike 87,89,90,91,92,93 were bought for date 09/26/2025. Calls of strike 80,92 were bought for date 10/17/2025. Calls of strike 140 were bought for date 02/20/2026
 
-AEM (Current Price: $152.47): No calls found
+AMAT (Current Price: $201.5758):
+  Calls of strike 197.5,200,207.5,210 were bought for date 09/26/2025. Calls of strike 200,207.5,210,215 were bought for date 10/17/2025. Calls of strike 220,240,250 were bought for date 12/19/2025. Calls of strike 220 were bought for date 01/16/2026
 
-AMAT (Current Price: $186.33):
-  Calls of strike 197.5,215 were bought for date 10/03/2025. Calls of strike 200,210 were bought for date 10/17/2025. Calls of strike 220 were bought for date 11/21/2025. Calls of strike 190,210 were bought for date 12/19/2025. Calls of strike 210 were bought for date 03/20/2026. Calls of strike 250 were bought for date 12/18/2026
+AMD (Current Price: $162.255):
+  Calls of strike 157.5,160,162.5,165,167.5,170,172.5,175 were bought for date 09/26/2025. Calls of strike 160,162.5,165,170,172.5,175,180 were bought for date 10/03/2025. Calls of strike 167.5,170,172.5 were bought for date 10/10/2025. Calls of strike 160,165,170,175,180 were bought for date 10/17/2025. Calls of strike 175,200 were bought for date 10/24/2025. Calls of strike 170,220 were bought for date 11/21/2025. Calls of strike 170,180,200,250 were bought for date 12/19/2025. Calls of strike 165,180,190,200,230 were bought for date 01/16/2026. Calls of strike 160,165,195,230 were bought for date 03/20/2026. Calls of strike 190 were bought for date 04/17/2026. Calls of strike 175 were bought for date 05/15/2026. Calls of strike 170,185,195 were bought for date 06/18/2026. Calls of strike 150 were bought for date 09/18/2026
 
-AMD (Current Price: $157.64):
-  Calls of strike 140,150,152.5,155,157.5,160,162.5,165,167.5,170,172.5,175,185 were bought for date 09/26/2025. Calls of strike 160,170,177.5,180,185 were bought for date 10/03/2025. Calls of strike 160,165,167.5,172.5,180 were bought for date 10/10/2025. Calls of strike 150,155,160,170,175,180,190,200 were bought for date 10/17/2025. Calls of strike 155,162.5,165,177.5,185 were bought for date 10/24/2025. Calls of strike 140,185,260 were bought for date 11/21/2025. Calls of strike 160,165,170,180,200,210,230,270 were bought for date 12/19/2025. Calls of strike 150,160,170,200,300 were bought for date 01/16/2026. Calls of strike 195,200 were bought for date 03/20/2026. Calls of strike 170,250 were bought for date 04/17/2026. Calls of strike 290 were bought for date 05/15/2026. Calls of strike 165,185,195,200,210,250,300,350,390 were bought for date 06/18/2026. Calls of strike 150,240,250,300,350 were bought for date 09/18/2026. Calls of strike 180,200,250,350,370 were bought for date 12/17/2027
+AMZN (Current Price: $220.119):
+  Calls of strike 220,222.5,225,227.5,230,232.5,235,237.5,240,245 were bought for date 09/26/2025. Calls of strike 220,225,227.5,230,232.5,235,237.5,240,242.5,245 were bought for date 10/03/2025. Calls of strike 215,220,222.5,225,230,232.5,235,250 were bought for date 10/10/2025. Calls of strike 222.5,227.5,230,235,240,245,250,257.5 were bought for date 10/17/2025. Calls of strike 230,240,245,250 were bought for date 10/24/2025. Calls of strike 240,270 were bought for date 10/31/2025. Calls of strike 215,220,225,230,235,240,245,250,260,280,285 were bought for date 11/21/2025. Calls of strike 220,225,235,240,245,250,255,270 were bought for date 12/19/2025. Calls of strike 200,240,250,255,260,270,300 were bought for date 01/16/2026. Calls of strike 230,235 were bought for date 02/20/2026. Calls of strike 200,235,250,260,275 were bought for date 03/20/2026. Calls of strike 220 were bought for date 04/17/2026. Calls of strike 260 were bought for date 05/15/2026. Calls of strike 200,230,235,300,320 were bought for date 06/18/2026. Calls of strike 240 were bought for date 08/21/2026. Calls of strike 300 were bought for date 09/18/2026. Calls of strike 240,250,265 were bought for date 01/15/2027. Calls of strike 360 were bought for date 06/17/2027. Calls of strike 300,350 were bought for date 12/17/2027
 
-AMZN (Current Price: $232.272):
-  Calls of strike 225,230,232.5,235,237.5,240,242.5,245,250,252.5 were bought for date 09/26/2025. Calls of strike 230,232.5,235,237.5,240,242.5,245,250 were bought for date 10/03/2025. Calls of strike 245,250 were bought for date 10/10/2025. Calls of strike 225,235,240,245,250,255,265,280,295 were bought for date 10/17/2025. Calls of strike 225,230,235,245 were bought for date 10/24/2025. Calls of strike 235,240,255 were bought for date 10/31/2025. Calls of strike 230,240,250,255,270 were bought for date 11/21/2025. Calls of strike 235,245,270 were bought for date 12/19/2025. Calls of strike 240,250 were bought for date 01/16/2026. Calls of strike 305 were bought for date 02/20/2026. Calls of strike 265,290,350 were bought for date 03/20/2026. Calls of strike 210 were bought for date 05/15/2026. Calls of strike 240 were bought for date 08/21/2026. Calls of strike 250 were bought for date 09/18/2026
+APLD (Current Price: $24.6635):
+  Calls of strike 23,24,24.5,25,25.5,26,27,28,29 were bought for date 09/26/2025. Calls of strike 24.5,26 were bought for date 10/03/2025. Calls of strike 25,30 were bought for date 10/10/2025. Calls of strike 18,19,20,24.5,25,26,28,29,30,34 were bought for date 10/17/2025. Calls of strike 18,28 were bought for date 10/24/2025. Calls of strike 30 were bought for date 10/31/2025. Calls of strike 18,20,23,24,26,30,33 were bought for date 11/21/2025. Calls of strike 20,30,34 were bought for date 12/19/2025. Calls of strike 30 were bought for date 01/16/2026. Calls of strike 15,25,35 were bought for date 03/20/2026. Calls of strike 22,35 were bought for date 06/18/2026. Calls of strike 22 were bought for date 01/15/2027
 
-APLD (Current Price: $20.085):
-  Calls of strike 18,20 were bought for date 10/17/2025. Calls of strike 18 were bought for date 10/31/2025. Calls of strike 33 were bought for date 11/21/2025. Calls of strike 23,25 were bought for date 01/16/2026. Calls of strike 20,30 were bought for date 03/20/2026. Calls of strike 32 were bought for date 06/18/2026. Calls of strike 25 were bought for date 01/15/2027
+APP (Current Price: $663.64):
+  Calls of strike 647.5,655,657.5,660,665,667.5,675,677.5,680,700,725 were bought for date 09/26/2025. Calls of strike 647.5,655,665,677.5,680,682.5,685,700,710,720,735,770 were bought for date 10/03/2025. Calls of strike 650,670,700,940 were bought for date 11/21/2025. Calls of strike 660,740 were bought for date 12/19/2025
 
-APP (Current Price: $618.83):
-  Calls of strike 595,610,620,630,650,655,660,665,670 were bought for date 09/26/2025. Calls of strike 700 were bought for date 10/03/2025. Calls of strike 630 were bought for date 10/10/2025. Calls of strike 640,650 were bought for date 10/17/2025. Calls of strike 600,830 were bought for date 01/16/2026. Calls of strike 630 were bought for date 01/15/2027
+AVGO (Current Price: $338.1284):
+  Calls of strike 337.5,340,345,347.5,350,355,357.5,360,362.5,370 were bought for date 09/26/2025. Calls of strike 345,360 were bought for date 10/03/2025. Calls of strike 325,370,375 were bought for date 10/10/2025. Calls of strike 350,370,400,410,420 were bought for date 10/17/2025. Calls of strike 320,360 were bought for date 11/21/2025. Calls of strike 530 were bought for date 12/19/2025. Calls of strike 340 were bought for date 09/18/2026
 
-ARM (Current Price: $148.33):
-  Calls of strike 162.5 were bought for date 09/26/2025. Calls of strike 175 were bought for date 10/03/2025. Calls of strike 135,145,160,165,180 were bought for date 10/17/2025. Calls of strike 180 were bought for date 10/31/2025. Calls of strike 155,170 were bought for date 11/21/2025. Calls of strike 200 were bought for date 06/18/2026
+BABA (Current Price: $164.945):
+  Calls of strike 152.5,160,165,167.5,170,172.5,175,177.5,180,190 were bought for date 09/26/2025. Calls of strike 165,170,172.5 were bought for date 10/03/2025. Calls of strike 135,170 were bought for date 10/10/2025. Calls of strike 160,165,170,180,200 were bought for date 10/17/2025. Calls of strike 157.5 were bought for date 10/24/2025. Calls of strike 165,180 were bought for date 11/21/2025. Calls of strike 260 were bought for date 12/19/2025. Calls of strike 170,190,290 were bought for date 01/16/2026. Calls of strike 220 were bought for date 04/17/2026. Calls of strike 200 were bought for date 06/18/2026. Calls of strike 100,150,230,240,250 were bought for date 12/18/2026. Calls of strike 150,240,250 were bought for date 01/15/2027
 
-ASML (Current Price: $929.5565):
-  Calls of strike 930,1060,1160 were bought for date 09/26/2025. Calls of strike 1040 were bought for date 10/03/2025. Calls of strike 1020,1140,1200 were bought for date 10/17/2025. Calls of strike 1180,1200 were bought for date 12/19/2025. Calls of strike 1200 were bought for date 01/16/2026. Calls of strike 800 were bought for date 06/18/2026
+BE (Current Price: $76.67):
+  Calls of strike 77,84,88 were bought for date 09/26/2025. Calls of strike 85,90,100 were bought for date 10/03/2025. Calls of strike 83 were bought for date 10/10/2025. Calls of strike 60,65,70,80,85,100,105 were bought for date 10/17/2025. Calls of strike 80 were bought for date 11/21/2025. Calls of strike 80 were bought for date 01/16/2026. Calls of strike 70,90 were bought for date 02/20/2026. Calls of strike 80,85,90 were bought for date 03/20/2026
 
-AVGO (Current Price: $348.0542):
-  Calls of strike 350,355,360,365,370,372.5,380 were bought for date 09/26/2025. Calls of strike 360,420 were bought for date 10/03/2025. Calls of strike 320,350,360,370,380,400,450 were bought for date 10/17/2025. Calls of strike 330,350,360,530 were bought for date 11/21/2025. Calls of strike 290,340,400 were bought for date 12/19/2025. Calls of strike 350,360 were bought for date 03/20/2026. Calls of strike 400 were bought for date 04/17/2026. Calls of strike 480 were bought for date 01/15/2027
+BIDU (Current Price: $129.94):
+  Calls of strike 127,130,135,140 were bought for date 09/26/2025. Calls of strike 128,129,130,131,139,140,150 were bought for date 10/03/2025. Calls of strike 132,139 were bought for date 10/10/2025. Calls of strike 110,120,132,150,160,175 were bought for date 10/17/2025. Calls of strike 140,155 were bought for date 11/21/2025. Calls of strike 120 were bought for date 01/16/2026. Calls of strike 135 were bought for date 03/20/2026. Calls of strike 180 were bought for date 06/18/2026. Calls of strike 200 were bought for date 09/18/2026
 
-BABA (Current Price: $162.965):
-  Calls of strike 162.5,165,167.5,170,172.5,175,180,187.5 were bought for date 09/26/2025. Calls of strike 157.5 were bought for date 10/03/2025. Calls of strike 175 were bought for date 10/10/2025. Calls of strike 150,155,160,165,175,185,200 were bought for date 10/17/2025. Calls of strike 170,175 were bought for date 10/24/2025. Calls of strike 180 were bought for date 10/31/2025. Calls of strike 185,210 were bought for date 11/21/2025. Calls of strike 160,180 were bought for date 12/19/2025. Calls of strike 170,175 were bought for date 01/16/2026. Calls of strike 175 were bought for date 02/20/2026. Calls of strike 170,200,250,300 were bought for date 03/20/2026. Calls of strike 180,220,240 were bought for date 06/18/2026
+BMNR (Current Price: $52.91):
+  Calls of strike 55,56,57,58,60,61,64,65,70 were bought for date 09/26/2025. Calls of strike 57,57.5,60,64,65 were bought for date 10/03/2025. Calls of strike 55,57,60,65,90,105 were bought for date 10/17/2025. Calls of strike 53 were bought for date 10/31/2025. Calls of strike 55,65,70,90 were bought for date 11/21/2025. Calls of strike 44,46,55,65,75,90 were bought for date 01/16/2026. Calls of strike 60,95,105 were bought for date 02/20/2026. Calls of strike 100 were bought for date 01/15/2027
 
-BAC (Current Price: $52.0376):
-  Calls of strike 51,51.5,52,52.5 were bought for date 09/26/2025. Calls of strike 52.5,55 were bought for date 10/17/2025. Calls of strike 50,52.5,55 were bought for date 11/21/2025. Calls of strike 52.5 were bought for date 12/19/2025. Calls of strike 50 were bought for date 03/20/2026. Calls of strike 55 were bought for date 06/18/2026. Calls of strike 70 were bought for date 01/15/2027. Calls of strike 60 were bought for date 12/17/2027. Calls of strike 55 were bought for date 01/21/2028
+C (Current Price: $104.93):
+  Calls of strike 102,103,104,105,106 were bought for date 09/26/2025. Calls of strike 104 were bought for date 10/03/2025. Calls of strike 95,100,105,107,110 were bought for date 10/17/2025. Calls of strike 101 were bought for date 10/24/2025. Calls of strike 110,120 were bought for date 11/21/2025. Calls of strike 70,110 were bought for date 12/19/2025. Calls of strike 105 were bought for date 01/16/2026. Calls of strike 70 were bought for date 03/20/2026
 
-BE (Current Price: $82.545):
-  Calls of strike 60,75,90,95 were bought for date 09/26/2025. Calls of strike 60,80,110 were bought for date 10/17/2025. Calls of strike 100 were bought for date 10/31/2025. Calls of strike 80,85 were bought for date 11/21/2025. Calls of strike 100 were bought for date 01/16/2026. Calls of strike 50 were bought for date 03/20/2026
+CLSK (Current Price: $14.3877):
+  Calls of strike 13,13.5,14,14.5,15,16 were bought for date 09/26/2025. Calls of strike 15,16,17 were bought for date 10/03/2025. Calls of strike 14 were bought for date 10/10/2025. Calls of strike 14,15,16,17,18,19,20,21 were bought for date 10/17/2025. Calls of strike 14,15,20 were bought for date 10/31/2025. Calls of strike 13,17,18,20,27 were bought for date 11/21/2025. Calls of strike 14,20 were bought for date 12/19/2025. Calls of strike 15,16,20,22.5,30,37 were bought for date 01/16/2026. Calls of strike 15 were bought for date 03/20/2026. Calls of strike 13,20 were bought for date 06/18/2026. Calls of strike 20 were bought for date 01/15/2027
 
-BIDU (Current Price: $134.135):
-  Calls of strike 139,140,150 were bought for date 09/26/2025. Calls of strike 140,142,150 were bought for date 10/03/2025. Calls of strike 112,155 were bought for date 10/10/2025. Calls of strike 140,145,155 were bought for date 10/17/2025. Calls of strike 105 were bought for date 11/21/2025. Calls of strike 120,140 were bought for date 12/19/2025. Calls of strike 150,180 were bought for date 06/18/2026. Calls of strike 85 were bought for date 01/15/2027
+COIN (Current Price: $330.97):
+  Calls of strike 320,322.5,325,330,332.5,335,340,342.5,345,350,355,400 were bought for date 09/26/2025. Calls of strike 332.5,340,345,347.5,355,360,372.5,375 were bought for date 10/03/2025. Calls of strike 330,335,337.5 were bought for date 10/10/2025. Calls of strike 320,340,400 were bought for date 10/17/2025. Calls of strike 320 were bought for date 10/24/2025. Calls of strike 330,350 were bought for date 11/21/2025. Calls of strike 320,330,400 were bought for date 12/19/2025. Calls of strike 400 were bought for date 01/16/2026
 
-BMNR (Current Price: $59.99):
-  Calls of strike 47,50,51,55,56,59,60,65,68,70,71,90,100 were bought for date 09/26/2025. Calls of strike 48,61,65,75 were bought for date 10/03/2025. Calls of strike 62 were bought for date 10/10/2025. Calls of strike 60,65,70,80,105 were bought for date 10/17/2025. Calls of strike 50,60 were bought for date 10/24/2025. Calls of strike 55,60,70 were bought for date 10/31/2025. Calls of strike 40,45,50,60,65,80,90 were bought for date 11/21/2025. Calls of strike 50,55,75,80,95,105 were bought for date 01/16/2026. Calls of strike 50,60 were bought for date 02/20/2026. Calls of strike 50 were bought for date 06/18/2026. Calls of strike 60,100,105 were bought for date 01/15/2027
+COST (Current Price: $935.06):
+  Calls of strike 945 were bought for date 09/26/2025. Calls of strike 1020 were bought for date 10/17/2025. Calls of strike 980 were bought for date 11/21/2025. Calls of strike 950 were bought for date 01/16/2026
 
-BP (Current Price: $34.6315):
-  Calls of strike 36 were bought for date 10/17/2025. Calls of strike 42 were bought for date 06/18/2026
+CRWD (Current Price: $488.49):
+  Calls of strike 490,510 were bought for date 09/26/2025. Calls of strike 485,510 were bought for date 10/03/2025. Calls of strike 490,525 were bought for date 10/17/2025
 
-CHTR (Current Price: $262.455): No calls found
+ELV (Current Price: $322.99):
+  Calls of strike 320,330 were bought for date 10/17/2025. Calls of strike 300 were bought for date 01/21/2028
 
-COCO (Current Price: $39.77): No calls found
+FSLR (Current Price: $221.12):
+  Calls of strike 230,240 were bought for date 09/26/2025. Calls of strike 225,230 were bought for date 10/17/2025. Calls of strike 220 were bought for date 10/24/2025. Calls of strike 220 were bought for date 12/19/2025. Calls of strike 280 were bought for date 01/16/2026. Calls of strike 260 were bought for date 03/20/2026
 
-COIN (Current Price: $349.257):
-  Calls of strike 330,340,345,347.5,350,355,360,365,370,375,380,390,395,400,405,420,425 were bought for date 09/26/2025. Calls of strike 322.5,360,380,385,395 were bought for date 10/03/2025. Calls of strike 395,400,420 were bought for date 10/10/2025. Calls of strike 310,320,340,350,370,380,390,400 were bought for date 10/17/2025. Calls of strike 325 were bought for date 10/24/2025. Calls of strike 390,440 were bought for date 10/31/2025. Calls of strike 320,330,350,360,390,400,420,450,480,500 were bought for date 11/21/2025. Calls of strike 300,350,400,500,550 were bought for date 12/19/2025. Calls of strike 420,640,880 were bought for date 01/16/2026. Calls of strike 400,480 were bought for date 03/20/2026
+GLW (Current Price: $79.59):
+  Calls of strike 78,81 were bought for date 09/26/2025. Calls of strike 85 were bought for date 10/17/2025. Calls of strike 85 were bought for date 11/21/2025. Calls of strike 85 were bought for date 01/16/2026. Calls of strike 100 were bought for date 06/18/2026
 
-CRCL (Current Price: $139.8):
-  Calls of strike 130,146,150,160,180 were bought for date 09/26/2025. Calls of strike 148 were bought for date 10/03/2025. Calls of strike 135,145,155,175,180,200 were bought for date 10/17/2025. Calls of strike 120,150,160 were bought for date 01/16/2026
+GM (Current Price: $59.105):
+  Calls of strike 63 were bought for date 10/10/2025. Calls of strike 65,67.5 were bought for date 11/21/2025
 
-CRWV (Current Price: $119.88):
-  Calls of strike 120,121,125,129,130,135,136,140,145 were bought for date 09/26/2025. Calls of strike 140 were bought for date 10/03/2025. Calls of strike 145 were bought for date 10/10/2025. Calls of strike 140,145,150,160 were bought for date 10/17/2025. Calls of strike 180 were bought for date 10/24/2025. Calls of strike 120,160 were bought for date 10/31/2025. Calls of strike 150,175 were bought for date 11/21/2025. Calls of strike 150,155,200 were bought for date 12/19/2025. Calls of strike 120,135 were bought for date 01/16/2026. Calls of strike 120 were bought for date 03/20/2026. Calls of strike 75 were bought for date 06/18/2026. Calls of strike 75 were bought for date 01/21/2028
+GOOG (Current Price: $251.7):
+  Calls of strike 252.5,255,260 were bought for date 09/26/2025. Calls of strike 252.5,255,257.5,260,265 were bought for date 10/03/2025. Calls of strike 260,272.5,275 were bought for date 10/17/2025. Calls of strike 285 were bought for date 10/24/2025. Calls of strike 260 were bought for date 10/31/2025. Calls of strike 265,275 were bought for date 11/21/2025. Calls of strike 215,260,300 were bought for date 12/19/2025. Calls of strike 265,270,300 were bought for date 01/16/2026. Calls of strike 250 were bought for date 04/17/2026
 
-CVNA (Current Price: $391.4066):
-  Calls of strike 375,380,395,400,415,420 were bought for date 09/26/2025. Calls of strike 450 were bought for date 10/10/2025. Calls of strike 440,460,500 were bought for date 10/17/2025. Calls of strike 500 were bought for date 11/21/2025. Calls of strike 500 were bought for date 12/19/2025. Calls of strike 380 were bought for date 01/16/2026. Calls of strike 400 were bought for date 03/20/2026
+GS (Current Price: $804.91):
+  Calls of strike 825,835 were bought for date 09/26/2025. Calls of strike 815,850 were bought for date 10/10/2025. Calls of strike 820,840,860,900,910,915,940 were bought for date 10/17/2025. Calls of strike 810 were bought for date 11/21/2025. Calls of strike 790,880 were bought for date 12/19/2025
 
-DVN (Current Price: $34.8499):
-  Calls of strike 40 were bought for date 11/21/2025
+HOOD (Current Price: $126.375):
+  Calls of strike 122,123,124,125,126,127,128,130,132,135 were bought for date 09/26/2025. Calls of strike 127,130,133,135,140 were bought for date 10/03/2025. Calls of strike 135,145,155 were bought for date 10/10/2025. Calls of strike 100,115,130,160,170 were bought for date 10/17/2025. Calls of strike 125 were bought for date 10/24/2025. Calls of strike 165,175 were bought for date 10/31/2025. Calls of strike 175 were bought for date 11/21/2025. Calls of strike 130,135,140,150 were bought for date 12/19/2025. Calls of strike 150 were bought for date 01/16/2026. Calls of strike 110,125 were bought for date 01/15/2027. Calls of strike 175 were bought for date 01/21/2028
 
-ELV (Current Price: $315.3001):
-  Calls of strike 570 were bought for date 01/15/2027
+INTC (Current Price: $29.381):
+  Calls of strike 26,27,28.5,29,29.5,30,30.5,31,31.5,32,35 were bought for date 09/26/2025. Calls of strike 26,27.5,28,28.5,29,29.5,30,30.5,31,32,33,35,35.5 were bought for date 10/03/2025. Calls of strike 28.5,29,29.5,30,32,32.5,33 were bought for date 10/10/2025. Calls of strike 27,28,28.5,29,30,30.5,31,32,32.5,33,33.5,34,35,38 were bought for date 10/17/2025. Calls of strike 27,30,33.5 were bought for date 10/24/2025. Calls of strike 28,28.5,29,32,35 were bought for date 10/31/2025. Calls of strike 29,30,32,33,34,35,36,37,40 were bought for date 11/21/2025. Calls of strike 25,29,30,31,34,35,36,40 were bought for date 12/19/2025. Calls of strike 28,30,33,35,36,37,40,45,50,75 were bought for date 01/16/2026. Calls of strike 29,30,35 were bought for date 02/20/2026. Calls of strike 25,30,32,33,35,45,48 were bought for date 03/20/2026. Calls of strike 36,41,44 were bought for date 04/17/2026. Calls of strike 20,25,30 were bought for date 06/18/2026. Calls of strike 25 were bought for date 09/18/2026. Calls of strike 40,50,55,60,70 were bought for date 12/18/2026. Calls of strike 20,40 were bought for date 01/15/2027. Calls of strike 25,27 were bought for date 01/21/2028
 
-ENPH (Current Price: $38.7999):
-  Calls of strike 40,41,42 were bought for date 09/26/2025. Calls of strike 40,45,50 were bought for date 10/17/2025. Calls of strike 50 were bought for date 11/21/2025. Calls of strike 40 were bought for date 01/16/2026. Calls of strike 50 were bought for date 01/15/2027
+IONQ (Current Price: $73.84):
+  Calls of strike 70,75,80,85 were bought for date 09/26/2025. Calls of strike 75,76,100,105 were bought for date 10/03/2025. Calls of strike 100,105 were bought for date 10/10/2025. Calls of strike 100 were bought for date 10/17/2025. Calls of strike 80 were bought for date 12/19/2025
 
-ETH (Current Price: $43.63):
-  Calls of strike 50 were bought for date 10/17/2025. Calls of strike 40,42 were bought for date 01/16/2026
+IREN (Current Price: $40.9144):
+  Calls of strike 38,40,43,44,45,46,47,55 were bought for date 09/26/2025. Calls of strike 45,50,55,64 were bought for date 10/03/2025. Calls of strike 40,42,43,45,55 were bought for date 10/17/2025. Calls of strike 45,50 were bought for date 11/21/2025. Calls of strike 37,42,45,55 were bought for date 12/19/2025. Calls of strike 40,45,50 were bought for date 01/16/2026. Calls of strike 60 were bought for date 02/20/2026. Calls of strike 40,50,55 were bought for date 03/20/2026. Calls of strike 50,55 were bought for date 06/18/2026. Calls of strike 50 were bought for date 01/15/2027
 
-FIGR (Current Price: $39.685): No calls found
+JPM (Current Price: $314.61):
+  Calls of strike 312.5,315,317.5,320 were bought for date 09/26/2025. Calls of strike 320 were bought for date 10/03/2025. Calls of strike 310,320,325 were bought for date 10/10/2025. Calls of strike 320 were bought for date 10/17/2025. Calls of strike 315,345 were bought for date 11/21/2025. Calls of strike 310,320,355 were bought for date 12/19/2025. Calls of strike 350 were bought for date 01/16/2026. Calls of strike 310 were bought for date 03/20/2026. Calls of strike 320,370 were bought for date 01/15/2027. Calls of strike 310 were bought for date 06/17/2027. Calls of strike 400 were bought for date 01/21/2028
 
-FND (Current Price: $87.1989):
-  Calls of strike 115 were bought for date 01/16/2026
+KGC (Current Price: $24.685):
+  Calls of strike 22.5 were bought for date 09/26/2025. Calls of strike 22 were bought for date 01/16/2026
 
-FUTU (Current Price: $173.37): No future calls found
+LCID (Current Price: $23.665):
+  Calls of strike 23.5,24,25 were bought for date 09/26/2025. Calls of strike 23,23.5,25 were bought for date 10/03/2025. Calls of strike 19,23.5,24.5 were bought for date 10/17/2025. Calls of strike 19,23,25,26 were bought for date 11/21/2025. Calls of strike 27 were bought for date 01/16/2026
 
-GLW (Current Price: $79.3101):
-  Calls of strike 78 were bought for date 10/03/2025. Calls of strike 85 were bought for date 10/17/2025. Calls of strike 80,85 were bought for date 11/21/2025. Calls of strike 85 were bought for date 12/19/2025. Calls of strike 85,95 were bought for date 01/16/2026. Calls of strike 105 were bought for date 09/18/2026
+LEN (Current Price: $122.33):
+  Calls of strike 126 were bought for date 09/26/2025. Calls of strike 123,135 were bought for date 10/17/2025. Calls of strike 135 were bought for date 10/31/2025. Calls of strike 135 were bought for date 11/21/2025
 
-HOOD (Current Price: $122.385):
-  Calls of strike 117,120,121,122,123,124,125,135,145,150,155 were bought for date 09/26/2025. Calls of strike 105,106,120,122,130,140 were bought for date 10/03/2025. Calls of strike 155 were bought for date 10/10/2025. Calls of strike 115,120,125,130,135,140,150 were bought for date 10/17/2025. Calls of strike 120,135,175 were bought for date 10/24/2025. Calls of strike 140 were bought for date 10/31/2025. Calls of strike 130,145,170 were bought for date 11/21/2025. Calls of strike 100 were bought for date 12/19/2025. Calls of strike 175 were bought for date 01/16/2026. Calls of strike 125 were bought for date 03/20/2026. Calls of strike 105 were bought for date 01/15/2027
+LUV (Current Price: $33.325):
+  Calls of strike 33.5 were bought for date 09/26/2025. Calls of strike 32.5,33.5,34.5,35 were bought for date 10/17/2025. Calls of strike 32.5,35 were bought for date 01/16/2026
 
-HUT (Current Price: $38.07):
-  Calls of strike 45,50 were bought for date 09/26/2025. Calls of strike 45 were bought for date 10/17/2025. Calls of strike 50 were bought for date 11/21/2025. Calls of strike 49,50 were bought for date 12/19/2025. Calls of strike 45 were bought for date 03/20/2026. Calls of strike 50 were bought for date 09/18/2026
+META (Current Price: $756.01):
+  Calls of strike 750,755,757.5,760,762.5,765,767.5,770,772.5,775,777.5,780,782.5,785,787.5,790,792.5,795,800,805,820 were bought for date 09/26/2025. Calls of strike 750,765,777.5,795,800,820 were bought for date 10/03/2025. Calls of strike 785,790 were bought for date 10/10/2025. Calls of strike 730,760,775,780,790,795,800,805,810,815,850,885 were bought for date 10/17/2025. Calls of strike 755 were bought for date 10/24/2025. Calls of strike 920,950 were bought for date 10/31/2025. Calls of strike 765,800,810,820,950,1060 were bought for date 11/21/2025. Calls of strike 820,950 were bought for date 12/19/2025. Calls of strike 770,780,800,890,1000,1210 were bought for date 01/16/2026. Calls of strike 1200 were bought for date 01/15/2027
 
-IBM (Current Price: $264.645):
-  Calls of strike 257.5,275 were bought for date 09/26/2025. Calls of strike 275,285 were bought for date 10/17/2025. Calls of strike 310 were bought for date 06/18/2026. Calls of strike 300 were bought for date 01/15/2027. Calls of strike 350 were bought for date 12/17/2027
+MRVL (Current Price: $74.4899):
+  Calls of strike 71,75,76,77,80,81,82,83 were bought for date 09/26/2025. Calls of strike 76,80 were bought for date 10/03/2025. Calls of strike 77 were bought for date 10/17/2025. Calls of strike 75 were bought for date 10/24/2025. Calls of strike 75 were bought for date 11/21/2025. Calls of strike 60,90,110 were bought for date 12/19/2025. Calls of strike 62.5,100 were bought for date 01/16/2026. Calls of strike 75,80,160 were bought for date 06/18/2026. Calls of strike 65 were bought for date 09/18/2026
 
-INTC (Current Price: $30.6499):
-  Calls of strike 21.5,25,25.5,26,27,28,28.5,29,29.5,30,31,32,33,34,35,36,37,38 were bought for date 09/26/2025. Calls of strike 25,26,26.5,27,29,30,31,32,33,34,35,36 were bought for date 10/03/2025. Calls of strike 25,26.5,27.5,32,33,34,35,36 were bought for date 10/10/2025. Calls of strike 20,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 were bought for date 10/17/2025. Calls of strike 28.5,33,35,36 were bought for date 10/24/2025. Calls of strike 25,35,36 were bought for date 10/31/2025. Calls of strike 22,24,25,26,27,28,29,30,31,32,33,34,35,36,38 were bought for date 11/21/2025. Calls of strike 25,26,28,29,30,31,33,35,38,40,45,50,60,75 were bought for date 12/19/2025. Calls of strike 20,22,23,24,25,27,28,30,31,32,33,35,36,37,38,40,45,47,50,55,60,65,75 were bought for date 01/16/2026. Calls of strike 26,28,30,33,38 were bought for date 02/20/2026. Calls of strike 20,22,25,27,28,29,30,32,34,35,38 were bought for date 03/20/2026. Calls of strike 25,30,32 were bought for date 04/17/2026. Calls of strike 20,23,25,28,30,33,35,38,40,45,50,55,65,70 were bought for date 06/18/2026. Calls of strike 20,25,30,32,37 were bought for date 09/18/2026. Calls of strike 20,23,25,28,30,33,38,50,55,60,65,70 were bought for date 12/18/2026. Calls of strike 22,30,35,40 were bought for date 01/15/2027. Calls of strike 30,37 were bought for date 12/17/2027
+MU (Current Price: $168.54):
+  Calls of strike 157.5,165,167.5,170,172.5,175,177.5,180,182.5,185,190,195,200,210,215,225,230,240,245 were bought for date 09/26/2025. Calls of strike 167.5,170,175,180,185,190,195,205 were bought for date 10/03/2025. Calls of strike 175,180,210 were bought for date 10/10/2025. Calls of strike 165,175,180,190,200,215,240 were bought for date 10/17/2025. Calls of strike 157.5,190,215 were bought for date 10/24/2025. Calls of strike 205,250 were bought for date 10/31/2025. Calls of strike 150,180,190,220,250,260,270 were bought for date 11/21/2025. Calls of strike 200,220,280 were bought for date 12/19/2025. Calls of strike 180,200,270 were bought for date 01/16/2026. Calls of strike 160 were bought for date 02/20/2026. Calls of strike 200 were bought for date 06/18/2026. Calls of strike 330 were bought for date 09/18/2026
 
-JBL (Current Price: $223.1221):
-  Calls of strike 240,250 were bought for date 10/17/2025
+NFLX (Current Price: $1216.95):
+  Calls of strike 1200,1222.5,1230,1250,1290 were bought for date 09/26/2025. Calls of strike 1215 were bought for date 10/10/2025. Calls of strike 1240,1325,1380 were bought for date 10/17/2025. Calls of strike 1340 were bought for date 12/19/2025. Calls of strike 1380 were bought for date 01/16/2026. Calls of strike 1400 were bought for date 03/20/2026
 
-JNJ (Current Price: $175.12):
-  Calls of strike 180 were bought for date 09/26/2025. Calls of strike 170,185 were bought for date 10/17/2025. Calls of strike 200 were bought for date 01/16/2026
+OPEN (Current Price: $7.295):
+  Calls of strike 6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5 were bought for date 09/26/2025. Calls of strike 6.5,7,7.5,8,8.5,9,10,11,11.5 were bought for date 10/03/2025. Calls of strike 7,7.5,8,8.5,9,9.5,10,16 were bought for date 10/10/2025. Calls of strike 7,7.5,8,8.5,9,10,11,13,15,20 were bought for date 10/17/2025. Calls of strike 7.5,9,10 were bought for date 10/24/2025. Calls of strike 6,7.5,8,9.5,10,21 were bought for date 10/31/2025. Calls of strike 8,9,10,12,21 were bought for date 11/21/2025. Calls of strike 8,9,10,12,15,20,21 were bought for date 01/16/2026. Calls of strike 8,9,10,11,14,15,18,20,21 were bought for date 02/20/2026. Calls of strike 8,10,12,17 were bought for date 05/15/2026. Calls of strike 5,5.5,7,10,20 were bought for date 01/15/2027. Calls of strike 10,20 were bought for date 12/17/2027. Calls of strike 12,20 were bought for date 01/21/2028
 
-LEN (Current Price: $132.625):
-  Calls of strike 143 were bought for date 09/26/2025. Calls of strike 150 were bought for date 11/21/2025
+ORCL (Current Price: $311.435):
+  Calls of strike 300,310,312.5,315,317.5,320,322.5,325,327.5,330,335,337.5,340,345,350,370 were bought for date 09/26/2025. Calls of strike 305,310,312.5,315,320,325,330,340,350,360 were bought for date 10/03/2025. Calls of strike 302.5,315,320,330,335,350,355,365 were bought for date 10/10/2025. Calls of strike 300,310,312.5,320,340,350,360,390,400,420 were bought for date 10/17/2025. Calls of strike 315,330,410 were bought for date 10/24/2025. Calls of strike 315,350,395 were bought for date 10/31/2025. Calls of strike 320,330,340,350,360,400 were bought for date 11/21/2025. Calls of strike 310,500,510 were bought for date 12/19/2025. Calls of strike 250,330,350,450,510 were bought for date 01/16/2026. Calls of strike 500 were bought for date 02/20/2026. Calls of strike 300,310,380 were bought for date 03/20/2026. Calls of strike 340 were bought for date 05/15/2026. Calls of strike 400 were bought for date 06/18/2026. Calls of strike 470,500 were bought for date 01/15/2027
 
-LLY (Current Price: $761.4824):
-  Calls of strike 775,800 were bought for date 09/26/2025. Calls of strike 800,850 were bought for date 10/17/2025. Calls of strike 800 were bought for date 12/19/2025. Calls of strike 760 were bought for date 01/16/2026. Calls of strike 600 were bought for date 09/18/2026
+PDD (Current Price: $129.92):
+  Calls of strike 130,131,132,135 were bought for date 09/26/2025. Calls of strike 131 were bought for date 10/10/2025. Calls of strike 130,140,150 were bought for date 10/17/2025. Calls of strike 145 were bought for date 10/31/2025. Calls of strike 170 were bought for date 11/21/2025. Calls of strike 170 were bought for date 01/16/2026
 
-MARA (Current Price: $19.05):
-  Calls of strike 16,17,17.5,18,18.5,19,19.5,20,20.5,22 were bought for date 09/26/2025. Calls of strike 17,19,20,21,21.5 were bought for date 10/03/2025. Calls of strike 18,20,21,25,26 were bought for date 10/10/2025. Calls of strike 15,16,17,18,19,20,22,24,33 were bought for date 10/17/2025. Calls of strike 19,20.5,21,22,24,30 were bought for date 10/24/2025. Calls of strike 18,20,23 were bought for date 10/31/2025. Calls of strike 18,22,24,26,27,33 were bought for date 11/21/2025. Calls of strike 18,20,21,23,25,29,30,35,50 were bought for date 12/19/2025. Calls of strike 15,17,20,22,25,26,29,30,35,40,50 were bought for date 01/16/2026. Calls of strike 19,25,35 were bought for date 03/20/2026. Calls of strike 27 were bought for date 05/15/2026. Calls of strike 17,25 were bought for date 06/18/2026. Calls of strike 18,25 were bought for date 09/18/2026. Calls of strike 25 were bought for date 01/15/2027. Calls of strike 35 were bought for date 12/17/2027
+PG (Current Price: $151.25):
+  Calls of strike 160,162.5 were bought for date 10/10/2025. Calls of strike 155 were bought for date 10/17/2025. Calls of strike 165 were bought for date 11/21/2025. Calls of strike 160,165 were bought for date 12/19/2025. Calls of strike 150 were bought for date 01/16/2026. Calls of strike 165 were bought for date 09/18/2026
 
-META (Current Price: $779.605):
-  Calls of strike 745,765,775,780,782.5,785,787.5,800,815,820,825,840,850 were bought for date 09/26/2025. Calls of strike 777.5,780 were bought for date 10/03/2025. Calls of strike 780,800,880,900 were bought for date 10/17/2025. Calls of strike 800 were bought for date 10/24/2025. Calls of strike 780,1000 were bought for date 10/31/2025. Calls of strike 775,780,800,1060 were bought for date 11/21/2025. Calls of strike 755,770,790 were bought for date 12/19/2025. Calls of strike 775,780,790,800,835,1000,1360 were bought for date 01/16/2026. Calls of strike 990,1000 were bought for date 05/15/2026. Calls of strike 900,1030 were bought for date 06/18/2026
+PL (Current Price: $11.8565):
+  Calls of strike 13 were bought for date 09/26/2025. Calls of strike 11,12 were bought for date 10/03/2025. Calls of strike 11 were bought for date 10/10/2025. Calls of strike 14 were bought for date 10/17/2025. Calls of strike 12,14 were bought for date 11/21/2025. Calls of strike 7,10 were bought for date 01/16/2026. Calls of strike 15 were bought for date 05/15/2026. Calls of strike 12 were bought for date 01/21/2028
 
-MO (Current Price: $64.375):
-  Calls of strike 65 were bought for date 09/26/2025
+PLTR (Current Price: $181.9):
+  Calls of strike 175,177.5,180,182.5,185,187.5,190,192.5,195,197.5,200 were bought for date 09/26/2025. Calls of strike 180,182.5,185,190,195,200,202.5 were bought for date 10/03/2025. Calls of strike 177.5,185,190,192.5,200 were bought for date 10/10/2025. Calls of strike 130,145,182.5,185,190,192.5,200,210,220,230 were bought for date 10/17/2025. Calls of strike 185,250 were bought for date 10/24/2025. Calls of strike 172.5 were bought for date 10/31/2025. Calls of strike 145,150,185,190,200,270 were bought for date 11/21/2025. Calls of strike 185,190,200 were bought for date 12/19/2025. Calls of strike 200 were bought for date 01/16/2026. Calls of strike 145,170,250 were bought for date 02/20/2026. Calls of strike 180 were bought for date 08/21/2026. Calls of strike 180 were bought for date 01/21/2028
 
-MRVL (Current Price: $74.585):
-  Calls of strike 72,75,76,77,80,83,84 were bought for date 09/26/2025. Calls of strike 77,80 were bought for date 10/03/2025. Calls of strike 85 were bought for date 10/10/2025. Calls of strike 65,75,80,85,90 were bought for date 10/17/2025. Calls of strike 75,80 were bought for date 11/21/2025. Calls of strike 65,80,85,90 were bought for date 12/19/2025. Calls of strike 70,80,85,90 were bought for date 01/16/2026. Calls of strike 100,110,120 were bought for date 09/18/2026. Calls of strike 125 were bought for date 12/18/2026. Calls of strike 110 were bought for date 12/17/2027
+QCOM (Current Price: $168.72):
+  Calls of strike 175,185 were bought for date 12/19/2025. Calls of strike 180,195 were bought for date 01/16/2026. Calls of strike 150 were bought for date 02/20/2026. Calls of strike 160 were bought for date 01/15/2027
 
-MSFT (Current Price: $508.43):
-  Calls of strike 505,510,515,517.5,520,525,530 were bought for date 09/26/2025. Calls of strike 500,510,515,517.5,525,540 were bought for date 10/03/2025. Calls of strike 500,515,525 were bought for date 10/10/2025. Calls of strike 510,515,520,525,530,540,545,550 were bought for date 10/17/2025. Calls of strike 510,550 were bought for date 10/24/2025. Calls of strike 550 were bought for date 10/31/2025. Calls of strike 510,515,520,560,595,600,610 were bought for date 11/21/2025. Calls of strike 530,600,605,610 were bought for date 12/19/2025. Calls of strike 500,540 were bought for date 01/16/2026. Calls of strike 520 were bought for date 03/20/2026
+RGTI (Current Price: $31.2871):
+  Calls of strike 19,26,27,28,29,30,31,32,33,34,35,36,37,40 were bought for date 09/26/2025. Calls of strike 15,27,31,32,33,34,35,40 were bought for date 10/03/2025. Calls of strike 34 were bought for date 10/10/2025. Calls of strike 27,32,35 were bought for date 10/17/2025. Calls of strike 19 were bought for date 11/21/2025. Calls of strike 40 were bought for date 12/19/2025. Calls of strike 20 were bought for date 01/16/2026. Calls of strike 20 were bought for date 02/20/2026. Calls of strike 30 were bought for date 01/15/2027. Calls of strike 40 were bought for date 01/21/2028
 
-MU (Current Price: $168.56):
-  Calls of strike 110,165,167.5,170,175,177.5,180,185,190,210 were bought for date 09/26/2025. Calls of strike 172.5,175,180,200 were bought for date 10/03/2025. Calls of strike 165,205,220 were bought for date 10/10/2025. Calls of strike 140,160,190,200,210,240 were bought for date 10/17/2025. Calls of strike 200 were bought for date 10/24/2025. Calls of strike 210 were bought for date 11/21/2025. Calls of strike 115,160,185,200,220 were bought for date 12/19/2025. Calls of strike 170,180,200,210,280 were bought for date 01/16/2026. Calls of strike 210 were bought for date 02/20/2026. Calls of strike 195 were bought for date 05/15/2026
+SHOP (Current Price: $152.14):
+  Calls of strike 160 were bought for date 09/26/2025. Calls of strike 157.5 were bought for date 10/10/2025. Calls of strike 160,170 were bought for date 11/21/2025. Calls of strike 130,155 were bought for date 01/16/2026. Calls of strike 155 were bought for date 02/20/2026
 
-NBIS (Current Price: $94.8):
-  Calls of strike 100,107,110,115 were bought for date 09/26/2025. Calls of strike 95,98 were bought for date 10/03/2025. Calls of strike 100,105,120,125 were bought for date 10/17/2025. Calls of strike 95 were bought for date 11/21/2025. Calls of strike 105,120 were bought for date 12/19/2025. Calls of strike 90,110 were bought for date 01/16/2026. Calls of strike 150 were bought for date 03/20/2026
+SOFI (Current Price: $28.9049):
+  Calls of strike 28.5,29,29.5,30,30.5,31,32 were bought for date 09/26/2025. Calls of strike 27.5,29,29.5,30,30.5,31 were bought for date 10/03/2025. Calls of strike 29,32 were bought for date 10/10/2025. Calls of strike 20,27,29,30,32 were bought for date 10/17/2025. Calls of strike 29,31,35 were bought for date 10/24/2025. Calls of strike 28,32,35 were bought for date 10/31/2025. Calls of strike 27,30,32 were bought for date 11/21/2025. Calls of strike 26,28,30,40 were bought for date 12/19/2025. Calls of strike 22,27,30,34,40 were bought for date 01/16/2026. Calls of strike 32 were bought for date 02/20/2026. Calls of strike 26,29 were bought for date 04/17/2026. Calls of strike 30 were bought for date 05/15/2026. Calls of strike 25,30,32,40 were bought for date 06/18/2026. Calls of strike 35,40 were bought for date 09/18/2026. Calls of strike 25,40 were bought for date 01/15/2027. Calls of strike 30 were bought for date 06/17/2027
 
-NFLX (Current Price: $1206.27):
-  Calls of strike 1290 were bought for date 09/26/2025. Calls of strike 1222.5,1230 were bought for date 10/03/2025. Calls of strike 1225 were bought for date 10/10/2025. Calls of strike 1300 were bought for date 10/17/2025. Calls of strike 1430 were bought for date 10/24/2025
+TSLA (Current Price: $425.81):
+  Calls of strike 400,415,417.5,420,422.5,425,427.5,430,432.5,435,437.5,440,442.5,445,447.5,450,452.5,455,457.5,460,465,467.5,470,472.5,475,480,485,490,492.5,500,505,520,530 were bought for date 09/26/2025. Calls of strike 400,425,427.5,430,432.5,435,437.5,440,445,447.5,450,452.5,460,467.5,475,480,485,500,505,515,520,530,540,545 were bought for date 10/03/2025. Calls of strike 425,427.5,430,432.5,435,440,450,485,500,510,515,530,550,555,575,590 were bought for date 10/10/2025. Calls of strike 300,380,430,435,442.5,450,480,490,500,510,515,530,550,600,610 were bought for date 10/17/2025. Calls of strike 450,455,520 were bought for date 10/24/2025. Calls of strike 435,480,500,550,600 were bought for date 10/31/2025. Calls of strike 400,420,430,440,480,500,550,680,790 were bought for date 11/21/2025. Calls of strike 340,400,430,440,470,480,500,520,550,560,700 were bought for date 12/19/2025. Calls of strike 350,420,440,450,490,500,630,700,910,960 were bought for date 01/16/2026. Calls of strike 430,800 were bought for date 02/20/2026. Calls of strike 400,500 were bought for date 06/18/2026. Calls of strike 510 were bought for date 01/15/2027. Calls of strike 860 were bought for date 12/17/2027
 
-NVO (Current Price: $61.8148):
-  Calls of strike 60,62,65 were bought for date 09/26/2025. Calls of strike 55,63 were bought for date 10/03/2025. Calls of strike 60,65,70,75 were bought for date 10/17/2025. Calls of strike 63 were bought for date 10/24/2025. Calls of strike 62 were bought for date 10/31/2025. Calls of strike 60,65,75 were bought for date 11/21/2025. Calls of strike 60,70,75,90 were bought for date 12/19/2025. Calls of strike 55,100,105,110 were bought for date 01/16/2026. Calls of strike 65 were bought for date 06/18/2026. Calls of strike 120 were bought for date 01/15/2027. Calls of strike 80 were bought for date 12/17/2027
+UAL (Current Price: $105.63):
+  Calls of strike 110 were bought for date 09/26/2025. Calls of strike 104 were bought for date 10/03/2025. Calls of strike 110 were bought for date 10/17/2025. Calls of strike 125 were bought for date 01/16/2026
 
-OKLO (Current Price: $104.79):
-  Calls of strike 100,107,110,120,125,140 were bought for date 09/26/2025. Calls of strike 90 were bought for date 10/03/2025. Calls of strike 90,120,140 were bought for date 10/17/2025. Calls of strike 110,120 were bought for date 11/21/2025. Calls of strike 100,110 were bought for date 01/16/2026. Calls of strike 100,140 were bought for date 03/20/2026. Calls of strike 65 were bought for date 01/15/2027. Calls of strike 100 were bought for date 12/17/2027
+UNH (Current Price: $348.15):
+  Calls of strike 335,337.5,340,342.5,345,347.5,350,352.5,355,357.5,360,362.5,365,370,380 were bought for date 09/26/2025. Calls of strike 332.5,335,342.5,345,350,352.5,355,360,362.5,365,370,380,400 were bought for date 10/03/2025. Calls of strike 345,350,355,360,365,370,380,400 were bought for date 10/10/2025. Calls of strike 340,347.5,350,360,365,370,375,380,400,410 were bought for date 10/17/2025. Calls of strike 330,345,350,400,425 were bought for date 10/31/2025. Calls of strike 350,380,400,420 were bought for date 11/21/2025. Calls of strike 350,400,430,450 were bought for date 12/19/2025. Calls of strike 400,410,440,450,500 were bought for date 01/16/2026. Calls of strike 370,500 were bought for date 03/20/2026. Calls of strike 450,500 were bought for date 06/18/2026. Calls of strike 400 were bought for date 09/18/2026. Calls of strike 330,600 were bought for date 01/15/2027. Calls of strike 650 were bought for date 06/17/2027. Calls of strike 290 were bought for date 12/17/2027. Calls of strike 430,500 were bought for date 01/21/2028
 
-ORCL (Current Price: $298.2866):
-  Calls of strike 270,290,297.5,300,302.5,305,310,312.5,320,325,330,340,350,360,375 were bought for date 09/26/2025. Calls of strike 320 were bought for date 10/03/2025. Calls of strike 320 were bought for date 10/10/2025. Calls of strike 390,400 were bought for date 10/17/2025. Calls of strike 315 were bought for date 10/24/2025. Calls of strike 400 were bought for date 11/21/2025. Calls of strike 300 were bought for date 07/17/2026
+W (Current Price: $83.85):
+  Calls of strike 85,86 were bought for date 10/03/2025. Calls of strike 88,100 were bought for date 10/17/2025
 
-OXY (Current Price: $47.28):
-  Calls of strike 47.5 were bought for date 09/26/2025. Calls of strike 50 were bought for date 10/31/2025. Calls of strike 50 were bought for date 01/16/2026
+WMB (Current Price: $61.615):
+  Calls of strike 60 were bought for date 09/26/2025. Calls of strike 62,64 were bought for date 10/03/2025. Calls of strike 63 were bought for date 10/10/2025. Calls of strike 64 were bought for date 10/17/2025. Calls of strike 62 were bought for date 10/24/2025. Calls of strike 65 were bought for date 12/19/2025
 
-PAAS (Current Price: $34.95):
-  Calls of strike 35,38 were bought for date 11/21/2025. Calls of strike 40 were bought for date 01/16/2026. Calls of strike 30,40 were bought for date 03/20/2026
-
-PDD (Current Price: $134.265):
-  Calls of strike 128,130,135,140,145,150 were bought for date 09/26/2025. Calls of strike 135,150 were bought for date 10/17/2025. Calls of strike 135 were bought for date 10/24/2025. Calls of strike 140 were bought for date 10/31/2025. Calls of strike 140,170 were bought for date 11/21/2025. Calls of strike 150,160 were bought for date 12/19/2025. Calls of strike 145,150 were bought for date 01/16/2026. Calls of strike 160 were bought for date 03/20/2026. Calls of strike 165 were bought for date 06/18/2026
-
-PLTR (Current Price: $177.53):
-  Calls of strike 165,170,172.5,175,177.5,180,182.5,185,187.5,190,192.5,195 were bought for date 09/26/2025. Calls of strike 165,177.5,185,190 were bought for date 10/03/2025. Calls of strike 175,180,185,190,195,200,210,220 were bought for date 10/17/2025. Calls of strike 170,172.5 were bought for date 10/31/2025. Calls of strike 170,175,180,185,190,200,210,220,230 were bought for date 11/21/2025. Calls of strike 185,190,260,280 were bought for date 12/19/2025. Calls of strike 180,200,280 were bought for date 01/16/2026. Calls of strike 190 were bought for date 02/20/2026. Calls of strike 200 were bought for date 03/20/2026. Calls of strike 210 were bought for date 05/15/2026. Calls of strike 160 were bought for date 09/18/2026. Calls of strike 150 were bought for date 01/15/2027
-
-PM (Current Price: $162.2704):
-  Calls of strike 165 were bought for date 11/21/2025. Calls of strike 175 were bought for date 03/20/2026
-
-PYPL (Current Price: $69.57):
-  Calls of strike 69,70,71 were bought for date 09/26/2025. Calls of strike 70,73 were bought for date 10/03/2025. Calls of strike 70,72.5,75 were bought for date 10/17/2025. Calls of strike 70,75 were bought for date 11/21/2025. Calls of strike 65,70,75,80,87.5,90,100 were bought for date 01/16/2026. Calls of strike 75,100 were bought for date 03/20/2026. Calls of strike 100 were bought for date 05/15/2026. Calls of strike 90,100,105,110 were bought for date 06/18/2026. Calls of strike 65,70,75,90,120,125 were bought for date 01/15/2027
-
-RKLB (Current Price: $48.2726):
-  Calls of strike 48,51,52,53 were bought for date 09/26/2025. Calls of strike 50,60 were bought for date 10/03/2025. Calls of strike 50,60 were bought for date 10/17/2025. Calls of strike 50 were bought for date 11/21/2025. Calls of strike 50,60 were bought for date 12/19/2025. Calls of strike 50,55,60 were bought for date 01/16/2026. Calls of strike 65 were bought for date 04/17/2026
-
-SNDK (Current Price: $98.065): No calls found
-
-TMO (Current Price: $479.845): No calls found
-
-TSLA (Current Price: $416.93):
-  Calls of strike 375,380,385,400,417.5,420,422.5,425,427.5,430,432.5,435,437.5,440,445,447.5,450,452.5,455,460,462.5,465,470,472.5,475,480,490,492.5,500,515,530,540,550 were bought for date 09/26/2025. Calls of strike 392.5,417.5,420,422.5,430,440,450,460,470,480,485,497.5,500,580,600 were bought for date 10/03/2025. Calls of strike 390,430,450,500,510,515,550,605 were bought for date 10/10/2025. Calls of strike 300,400,420,425,430,440,450,460,480,500,520,580,590,600,610,620,670,700 were bought for date 10/17/2025. Calls of strike 430,450,470,480,600 were bought for date 10/31/2025. Calls of strike 350,400,430,450,460,470,500,510,550,790 were bought for date 11/21/2025. Calls of strike 320,400,425,430,450,480,500,510,550,580,960 were bought for date 12/19/2025. Calls of strike 330,360,400,410,420,440,500,550,600,700,900,960 were bought for date 01/16/2026. Calls of strike 320,430,590,850 were bought for date 03/20/2026. Calls of strike 700,850 were bought for date 04/17/2026. Calls of strike 600,700,750,800,960 were bought for date 06/18/2026. Calls of strike 380,650,850 were bought for date 09/18/2026. Calls of strike 500 were bought for date 12/18/2026. Calls of strike 500 were bought for date 01/15/2027. Calls of strike 530 were bought for date 12/17/2027
-
-TTWO (Current Price: $251.075):
-  Calls of strike 290,340 were bought for date 03/20/2026
-
-UNH (Current Price: $336.1267):
-  Calls of strike 335,340,350,355,360,370,380 were bought for date 09/26/2025. Calls of strike 335,350,380,400 were bought for date 10/03/2025. Calls of strike 380,395 were bought for date 10/10/2025. Calls of strike 340,350,370,400 were bought for date 10/17/2025. Calls of strike 370,375 were bought for date 10/31/2025. Calls of strike 450 were bought for date 11/21/2025. Calls of strike 400,440,550 were bought for date 12/19/2025. Calls of strike 450,480,500 were bought for date 01/16/2026. Calls of strike 300,350,370 were bought for date 03/20/2026. Calls of strike 500 were bought for date 06/18/2026. Calls of strike 380 were bought for date 01/15/2027
-
-WMT (Current Price: $104.1735):
-  Calls of strike 104,105,107 were bought for date 09/26/2025. Calls of strike 105,110,115 were bought for date 10/17/2025. Calls of strike 110 were bought for date 11/21/2025. Calls of strike 120 were bought for date 01/16/2026. Calls of strike 110 were bought for date 03/20/2026. Calls of strike 110 were bought for date 09/18/2026
-
-WOLF (Current Price: $2.86):
-  Calls of strike 2.5 were bought for date 09/26/2025. Calls of strike 3,4.5 were bought for date 10/03/2025. Calls of strike 2,2.5 were bought for date 10/17/2025. Calls of strike 2.5 were bought for date 10/31/2025. Calls of strike 2.5 were bought for date 12/19/2025. Calls of strike 3 were bought for date 01/16/2026. Calls of strike 2.5 were bought for date 03/20/2026. Calls of strike 2.5 were bought for date 06/18/2026. Calls of strike 3 were bought for date 01/15/2027
+WMT (Current Price: $101.655):
+  Calls of strike 102,105 were bought for date 09/26/2025. Calls of strike 102,104 were bought for date 10/03/2025. Calls of strike 105 were bought for date 10/17/2025. Calls of strike 110,115 were bought for date 11/21/2025. Calls of strike 105,115 were bought for date 12/19/2025. Calls of strike 105,115 were bought for date 01/16/2026. Calls of strike 105 were bought for date 03/20/2026
 
 DETAILED PUT BREAKDOWN BY TICKER:
 ==================================
 
-AAPL (Current Price: $238.075):
-  Put #1: Strike $250, Spot $238.07, ITM by $11.93, Premium $1,553,500, Exp: 9/19/2025
-  Put #2: Strike $260, Spot $238.07, ITM by $21.93, Premium $439,000, Exp: 9/19/2025
-  Put #3: Strike $255, Spot $238.07, ITM by $16.93, Premium $1,864,500, Exp: 9/19/2025
-  Put #4: Strike $240, Spot $237.71, ITM by $2.29, Premium $309,890, Exp: 10/17/2025
-  Put #5: Strike $252, Spot $237.92, ITM by $14.58, Premium $735,000, Exp: 9/19/2025
-  Put #6: Strike $250, Spot $237.92, ITM by $12.08, Premium $1,573,000, Exp: 9/19/2025
-  Put #7: Strike $255, Spot $237.92, ITM by $17.08, Premium $1,881,000, Exp: 9/19/2025
-  Put #8: Strike $260, Spot $237.92, ITM by $22.08, Premium $668,000, Exp: 9/19/2025
-  Put #9: Strike $240, Spot $237.72, ITM by $2.28, Premium $497,690, Exp: 3/20/2026
-  Put #10: Strike $240, Spot $237.04, ITM by $2.96, Premium $203,073, Exp: 11/21/2025
+AAPL (Current Price: $254.12):
+  Put #1: Strike $270, Spot $254.12, ITM by $15.88, Premium $1,600,000, Exp: 10/3/2025
+  Put #2: Strike $260, Spot $255.49, ITM by $4.51, Premium $397,500, Exp: 12/18/2026
+  Put #3: Strike $260, Spot $256.09, ITM by $3.91, Premium $391,500, Exp: 12/18/2026
+  Put #4: Strike $260, Spot $255.93, ITM by $4.07, Premium $392,250, Exp: 12/18/2026
+  Put #5: Strike $260, Spot $255.88, ITM by $4.12, Premium $307,596, Exp: 10/3/2025
+  Put #6: Strike $260, Spot $256.02, ITM by $3.98, Premium $392,250, Exp: 12/18/2026
+  Put #7: Strike $270, Spot $255.17, ITM by $14.83, Premium $1,200,000, Exp: 10/3/2025
+  Put #8: Strike $270, Spot $255.63, ITM by $14.37, Premium $757,000, Exp: 12/17/2027
 
-ADBE (Current Price: $367.58):
-  Put #1: Strike $405, Spot $367.58, ITM by $37.42, Premium $562,500, Exp: 9/19/2025
-  Put #2: Strike $400, Spot $367.58, ITM by $32.42, Premium $14,464,000, Exp: 9/19/2025
-  Put #3: Strike $570, Spot $367.58, ITM by $202.42, Premium $39,179,000, Exp: 1/16/2026
-  Put #4: Strike $420, Spot $367.58, ITM by $52.42, Premium $6,913,800, Exp: 9/19/2025
-  Put #5: Strike $420, Spot $367.56, ITM by $52.44, Premium $1,677,000, Exp: 9/19/2025
-  Put #6: Strike $440, Spot $367.56, ITM by $72.44, Premium $6,466,500, Exp: 9/19/2025
-  Put #7: Strike $430, Spot $367.56, ITM by $62.44, Premium $7,268,000, Exp: 9/19/2025
-  Put #8: Strike $570, Spot $367.56, ITM by $202.44, Premium $36,288,000, Exp: 1/16/2026
-  Put #9: Strike $460, Spot $367.56, ITM by $92.44, Premium $7,095,125, Exp: 9/19/2025
-  Put #10: Strike $450, Spot $367.56, ITM by $82.44, Premium $4,082,500, Exp: 9/19/2025
+AFRM (Current Price: $87.065):
+  Put #1: Strike $90, Spot $87.06, ITM by $2.94, Premium $250,150, Exp: 10/3/2025
+  Put #2: Strike $90, Spot $87.12, ITM by $2.88, Premium $250,000, Exp: 10/3/2025
+  Put #3: Strike $90, Spot $88.06, ITM by $1.94, Premium $225,000, Exp: 10/3/2025
 
-AEM (Current Price: $152.47):
-  Put #1: Strike $155, Spot $152.47, ITM by $2.53, Premium $230,000, Exp: 12/19/2025
+AMAT (Current Price: $201.5758):
+  Put #1: Strike $202, Spot $201.58, ITM by $0.92, Premium $446,250, Exp: 10/17/2025
 
-AMAT (Current Price: $186.33):
-  Put #1: Strike $190, Spot $186.33, ITM by $3.67, Premium $266,660, Exp: 11/21/2025
+AMD (Current Price: $162.255):
+  Put #1: Strike $165, Spot $162.25, ITM by $2.75, Premium $324,588, Exp: 10/3/2025
+  Put #2: Strike $170, Spot $162.29, ITM by $7.71, Premium $612,700, Exp: 6/18/2026
+  Put #3: Strike $162, Spot $161.50, ITM by $1.00, Premium $313,740, Exp: 10/3/2025
 
-AMD (Current Price: $157.64):
-  Put #1: Strike $180, Spot $157.64, ITM by $22.36, Premium $6,495,000, Exp: 9/19/2025
-  Put #2: Strike $180, Spot $157.68, ITM by $22.32, Premium $6,480,000, Exp: 9/19/2025
-  Put #3: Strike $175, Spot $157.62, ITM by $17.38, Premium $22,410,000, Exp: 9/19/2025
-  Put #4: Strike $172, Spot $157.60, ITM by $14.90, Premium $8,460,000, Exp: 9/19/2025
-  Put #5: Strike $175, Spot $158.52, ITM by $16.48, Premium $22,410,000, Exp: 9/19/2025
-  Put #6: Strike $172, Spot $158.52, ITM by $13.98, Premium $8,460,000, Exp: 9/19/2025
-  Put #7: Strike $180, Spot $158.52, ITM by $21.48, Premium $12,975,000, Exp: 9/19/2025
-  Put #8: Strike $185, Spot $158.52, ITM by $26.48, Premium $3,975,000, Exp: 9/19/2025
-  Put #9: Strike $170, Spot $156.23, ITM by $13.77, Premium $1,672,500, Exp: 9/18/2026
-  Put #10: Strike $162, Spot $154.82, ITM by $7.68, Premium $397,500, Exp: 9/19/2025
-  Put #11: Strike $155, Spot $154.49, ITM by $0.51, Premium $542,455, Exp: 8/21/2026
-  Put #12: Strike $165, Spot $153.45, ITM by $11.55, Premium $612,760, Exp: 12/17/2027
-  Put #13: Strike $152, Spot $151.21, ITM by $1.29, Premium $279,314, Exp: 9/19/2025
-  Put #14: Strike $152, Spot $150.90, ITM by $1.60, Premium $1,276,873, Exp: 9/19/2025
-  Put #15: Strike $152, Spot $150.73, ITM by $1.77, Premium $831,061, Exp: 9/19/2025
-  Put #16: Strike $152, Spot $150.26, ITM by $2.24, Premium $514,850, Exp: 9/19/2025
+AMZN (Current Price: $220.119):
+  Put #1: Strike $225, Spot $220.12, ITM by $4.88, Premium $301,200, Exp: 9/26/2025
+  Put #2: Strike $225, Spot $220.14, ITM by $4.86, Premium $484,829, Exp: 9/26/2025
+  Put #3: Strike $250, Spot $221.31, ITM by $28.69, Premium $462,000, Exp: 11/21/2025
+  Put #4: Strike $225, Spot $223.00, ITM by $2.00, Premium $280,000, Exp: 12/19/2025
+  Put #5: Strike $225, Spot $222.92, ITM by $2.08, Premium $360,800, Exp: 6/18/2026
+  Put #6: Strike $235, Spot $222.84, ITM by $12.16, Premium $305,620, Exp: 10/3/2025
+  Put #7: Strike $235, Spot $221.63, ITM by $13.37, Premium $481,250, Exp: 11/21/2025
+  Put #8: Strike $240, Spot $223.13, ITM by $16.87, Premium $646,500, Exp: 11/21/2025
 
-AMZN (Current Price: $232.272):
-  Put #1: Strike $232, Spot $232.27, ITM by $0.23, Premium $476,689, Exp: 9/26/2025
-  Put #2: Strike $255, Spot $232.69, ITM by $22.31, Premium $442,320, Exp: 10/17/2025
+APLD (Current Price: $24.6635):
+  Put #1: Strike $30, Spot $24.66, ITM by $5.34, Premium $385,000, Exp: 9/26/2025
+  Put #2: Strike $30, Spot $24.46, ITM by $5.54, Premium $399,000, Exp: 9/26/2025
+  Put #3: Strike $30, Spot $24.55, ITM by $5.45, Premium $280,000, Exp: 9/26/2025
 
-APLD (Current Price: $20.085):
-  Put #1: Strike $23, Spot $20.09, ITM by $2.91, Premium $269,500, Exp: 3/20/2026
+APP (Current Price: $663.64):
+  Put #1: Strike $700, Spot $663.64, ITM by $36.36, Premium $5,641,860, Exp: 12/18/2026
 
-APP (Current Price: $618.83):
-  Put #1: Strike $640, Spot $618.83, ITM by $21.17, Premium $428,160, Exp: 9/19/2025
+AVGO (Current Price: $338.1284):
+  Put #1: Strike $340, Spot $338.13, ITM by $1.87, Premium $454,487, Exp: 10/17/2025
+  Put #2: Strike $340, Spot $339.41, ITM by $0.59, Premium $223,389, Exp: 11/21/2025
+  Put #3: Strike $340, Spot $338.06, ITM by $1.94, Premium $654,890, Exp: 10/17/2025
 
-ARM (Current Price: $148.33):
-  Put #1: Strike $152, Spot $148.33, ITM by $4.17, Premium $225,756, Exp: 9/19/2025
+BABA (Current Price: $164.945):
+  Put #1: Strike $170, Spot $164.94, ITM by $5.06, Premium $327,500, Exp: 9/26/2025
+  Put #2: Strike $170, Spot $165.98, ITM by $4.02, Premium $288,420, Exp: 9/26/2025
 
-ASML (Current Price: $929.5565):
-  Put #1: Strike $930, Spot $929.56, ITM by $0.44, Premium $437,250, Exp: 11/21/2025
+BE (Current Price: $76.67):
+  Put #1: Strike $85, Spot $76.67, ITM by $8.33, Premium $225,000, Exp: 9/26/2025
+  Put #2: Strike $85, Spot $80.06, ITM by $4.94, Premium $231,142, Exp: 10/17/2025
+  Put #3: Strike $105, Spot $84.92, ITM by $20.08, Premium $5,382,000, Exp: 9/18/2026
+  Put #4: Strike $105, Spot $84.94, ITM by $20.06, Premium $5,375,500, Exp: 9/18/2026
 
-AVGO (Current Price: $348.0542):
-  Put #1: Strike $350, Spot $348.05, ITM by $1.95, Premium $330,000, Exp: 1/16/2026
+BIDU (Current Price: $129.94):
+  Put #1: Strike $130, Spot $129.94, ITM by $0.06, Premium $234,715, Exp: 12/19/2025
 
-BABA (Current Price: $162.965):
-  Put #1: Strike $170, Spot $162.97, ITM by $7.03, Premium $356,250, Exp: 4/17/2026
-  Put #2: Strike $165, Spot $163.27, ITM by $1.73, Premium $428,610, Exp: 10/17/2025
-  Put #3: Strike $170, Spot $163.31, ITM by $6.69, Premium $253,380, Exp: 10/17/2025
-  Put #4: Strike $170, Spot $163.11, ITM by $6.89, Premium $374,480, Exp: 10/17/2025
-  Put #5: Strike $170, Spot $162.83, ITM by $7.17, Premium $292,331, Exp: 12/19/2025
+BMNR (Current Price: $52.91):
+  Put #1: Strike $56, Spot $52.91, ITM by $3.09, Premium $240,000, Exp: 10/17/2025
+  Put #2: Strike $65, Spot $56.16, ITM by $8.84, Premium $674,276, Exp: 1/15/2027
 
-BAC (Current Price: $52.0376):
-  Put #1: Strike $52, Spot $52.04, ITM by $0.46, Premium $246,210, Exp: 6/18/2026
+C (Current Price: $104.93):
+  Put #1: Strike $110, Spot $104.93, ITM by $5.07, Premium $267,500, Exp: 10/3/2025
+  Put #2: Strike $110, Spot $104.75, ITM by $5.25, Premium $277,455, Exp: 11/21/2025
+  Put #3: Strike $110, Spot $104.94, ITM by $5.06, Premium $267,500, Exp: 10/3/2025
 
-BE (Current Price: $82.545):
-  Put #1: Strike $85, Spot $82.55, ITM by $2.45, Premium $615,440, Exp: 1/16/2026
-  Put #2: Strike $85, Spot $83.09, ITM by $1.91, Premium $423,360, Exp: 1/16/2026
-  Put #3: Strike $85, Spot $83.25, ITM by $1.75, Premium $439,040, Exp: 1/16/2026
+CLSK (Current Price: $14.3877):
+  Put #1: Strike $17, Spot $14.39, ITM by $2.61, Premium $315,700, Exp: 11/21/2025
+  Put #2: Strike $17, Spot $14.35, ITM by $2.65, Premium $460,210, Exp: 11/21/2025
+  Put #3: Strike $17, Spot $14.93, ITM by $2.07, Premium $284,993, Exp: 11/21/2025
+  Put #4: Strike $17, Spot $14.60, ITM by $2.40, Premium $375,000, Exp: 11/21/2025
 
-BIDU (Current Price: $134.135):
-  Put #1: Strike $140, Spot $134.13, ITM by $5.87, Premium $371,800, Exp: 12/19/2025
+COIN (Current Price: $330.97):
+  Put #1: Strike $338, Spot $330.97, ITM by $6.53, Premium $250,125, Exp: 10/17/2025
+  Put #2: Strike $338, Spot $330.78, ITM by $6.72, Premium $346,020, Exp: 10/17/2025
+  Put #3: Strike $420, Spot $331.36, ITM by $88.64, Premium $2,459,995, Exp: 11/21/2025
+  Put #4: Strike $420, Spot $331.26, ITM by $88.74, Premium $1,714,245, Exp: 11/21/2025
 
-BMNR (Current Price: $59.99):
-  Put #1: Strike $65, Spot $59.99, ITM by $5.01, Premium $283,050, Exp: 11/21/2025
+COST (Current Price: $935.06):
+  Put #1: Strike $940, Spot $935.06, ITM by $4.94, Premium $291,500, Exp: 10/17/2025
 
-BP (Current Price: $34.6315):
-  Put #1: Strike $40, Spot $34.63, ITM by $5.37, Premium $252,895, Exp: 1/21/2028
-  Put #2: Strike $40, Spot $34.63, ITM by $5.37, Premium $253,080, Exp: 1/15/2027
+CRWD (Current Price: $488.49):
+  Put #1: Strike $490, Spot $488.49, ITM by $1.51, Premium $364,450, Exp: 10/17/2025
 
-CHTR (Current Price: $262.455):
-  Put #1: Strike $330, Spot $262.45, ITM by $67.55, Premium $22,848,000, Exp: 9/19/2025
-  Put #2: Strike $300, Spot $262.45, ITM by $37.55, Premium $16,695,000, Exp: 9/19/2025
-  Put #3: Strike $320, Spot $262.45, ITM by $57.55, Premium $1,156,000, Exp: 9/19/2025
-  Put #4: Strike $290, Spot $262.45, ITM by $27.55, Premium $12,330,000, Exp: 9/19/2025
-  Put #5: Strike $350, Spot $262.45, ITM by $87.55, Premium $28,743,000, Exp: 9/19/2025
+ELV (Current Price: $322.99):
+  Put #1: Strike $340, Spot $322.99, ITM by $17.01, Premium $283,078, Exp: 10/17/2025
 
-COCO (Current Price: $39.77):
-  Put #1: Strike $40, Spot $39.77, ITM by $0.23, Premium $225,410, Exp: 10/17/2025
+FSLR (Current Price: $221.12):
+  Put #1: Strike $280, Spot $221.12, ITM by $58.88, Premium $2,800,000, Exp: 1/15/2027
 
-COIN (Current Price: $349.257):
-  Put #1: Strike $430, Spot $349.26, ITM by $80.74, Premium $2,315,000, Exp: 11/21/2025
-  Put #2: Strike $350, Spot $345.22, ITM by $4.78, Premium $313,750, Exp: 10/17/2025
-  Put #3: Strike $420, Spot $346.29, ITM by $73.71, Premium $2,175,000, Exp: 11/21/2025
-  Put #4: Strike $400, Spot $339.62, ITM by $60.38, Premium $1,460,550, Exp: 11/21/2025
-  Put #5: Strike $400, Spot $338.03, ITM by $61.97, Premium $950,670, Exp: 11/21/2025
-  Put #6: Strike $400, Spot $338.31, ITM by $61.69, Premium $926,805, Exp: 11/21/2025
+GLW (Current Price: $79.59):
+  Put #1: Strike $80, Spot $79.59, ITM by $0.41, Premium $205,020, Exp: 9/18/2026
 
-CRCL (Current Price: $139.8):
-  Put #1: Strike $146, Spot $139.80, ITM by $6.20, Premium $291,460, Exp: 9/26/2025
-  Put #2: Strike $150, Spot $139.81, ITM by $10.19, Premium $1,512,845, Exp: 11/21/2025
-  Put #3: Strike $150, Spot $139.44, ITM by $10.56, Premium $1,574,856, Exp: 11/21/2025
+GM (Current Price: $59.105):
+  Put #1: Strike $65, Spot $59.10, ITM by $5.90, Premium $295,000, Exp: 10/3/2025
+  Put #2: Strike $65, Spot $59.21, ITM by $5.79, Premium $263,317, Exp: 10/3/2025
+  Put #3: Strike $60, Spot $59.34, ITM by $0.66, Premium $218,000, Exp: 10/17/2025
 
-CRWV (Current Price: $119.88):
-  Put #1: Strike $120, Spot $119.88, ITM by $0.12, Premium $201,805, Exp: 9/19/2025
+GOOG (Current Price: $251.7):
+  Put #1: Strike $255, Spot $251.70, ITM by $3.30, Premium $1,050,000, Exp: 10/24/2025
 
-CVNA (Current Price: $391.4066):
-  Put #1: Strike $400, Spot $391.41, ITM by $8.59, Premium $942,912, Exp: 3/20/2026
+GS (Current Price: $804.91):
+  Put #1: Strike $820, Spot $804.91, ITM by $15.09, Premium $254,980, Exp: 10/17/2025
+  Put #2: Strike $820, Spot $809.40, ITM by $10.60, Premium $234,612, Exp: 10/17/2025
+  Put #3: Strike $820, Spot $811.57, ITM by $8.43, Premium $221,008, Exp: 10/17/2025
+  Put #4: Strike $830, Spot $825.11, ITM by $4.89, Premium $424,050, Exp: 11/21/2025
 
-DVN (Current Price: $34.8499):
-  Put #1: Strike $40, Spot $34.85, ITM by $5.15, Premium $772,500, Exp: 9/19/2025
-  Put #2: Strike $42, Spot $34.85, ITM by $7.65, Premium $918,000, Exp: 9/19/2025
-  Put #3: Strike $45, Spot $34.85, ITM by $10.15, Premium $304,500, Exp: 9/19/2025
+HOOD (Current Price: $126.375):
+  Put #1: Strike $130, Spot $126.38, ITM by $3.62, Premium $403,910, Exp: 12/19/2025
+  Put #2: Strike $130, Spot $126.39, ITM by $3.61, Premium $357,840, Exp: 12/19/2025
 
-ELV (Current Price: $315.3001):
-  Put #1: Strike $430, Spot $315.30, ITM by $114.70, Premium $5,193,000, Exp: 9/19/2025
-  Put #2: Strike $410, Spot $315.30, ITM by $94.70, Premium $4,402,200, Exp: 9/19/2025
-  Put #3: Strike $350, Spot $315.30, ITM by $34.70, Premium $716,000, Exp: 9/19/2025
-  Put #4: Strike $340, Spot $315.30, ITM by $24.70, Premium $1,375,000, Exp: 9/19/2025
-  Put #5: Strike $400, Spot $315.30, ITM by $84.70, Premium $1,531,800, Exp: 9/19/2025
-  Put #6: Strike $360, Spot $315.30, ITM by $44.70, Premium $904,000, Exp: 9/19/2025
-  Put #7: Strike $410, Spot $313.80, ITM by $96.20, Premium $4,745,000, Exp: 9/19/2025
-  Put #8: Strike $430, Spot $313.80, ITM by $116.20, Premium $5,745,000, Exp: 9/19/2025
-  Put #9: Strike $350, Spot $313.80, ITM by $36.20, Premium $523,500, Exp: 9/19/2025
-  Put #10: Strike $360, Spot $313.80, ITM by $46.20, Premium $673,500, Exp: 9/19/2025
+INTC (Current Price: $29.381):
+  Put #1: Strike $32, Spot $29.38, ITM by $2.62, Premium $231,049, Exp: 10/17/2025
+  Put #2: Strike $30, Spot $29.45, ITM by $0.55, Premium $253,513, Exp: 2/20/2026
+  Put #3: Strike $30, Spot $29.99, ITM by $0.01, Premium $373,060, Exp: 6/18/2026
 
-ENPH (Current Price: $38.7999):
-  Put #1: Strike $60, Spot $38.80, ITM by $21.20, Premium $2,422,500, Exp: 9/19/2025
-  Put #2: Strike $50, Spot $38.80, ITM by $11.20, Premium $630,000, Exp: 9/19/2025
-  Put #3: Strike $55, Spot $38.80, ITM by $16.20, Premium $1,717,200, Exp: 9/19/2025
+IONQ (Current Price: $73.84):
+  Put #1: Strike $75, Spot $73.84, ITM by $1.16, Premium $450,000, Exp: 10/17/2025
+  Put #2: Strike $75, Spot $73.59, ITM by $1.41, Premium $464,700, Exp: 10/17/2025
+  Put #3: Strike $75, Spot $73.48, ITM by $1.52, Premium $611,000, Exp: 10/17/2025
 
-ETH (Current Price: $43.63):
-  Put #1: Strike $50, Spot $43.63, ITM by $6.37, Premium $640,000, Exp: 9/19/2025
+IREN (Current Price: $40.9144):
+  Put #1: Strike $42, Spot $40.91, ITM by $1.09, Premium $637,500, Exp: 10/17/2025
+  Put #2: Strike $45, Spot $40.88, ITM by $4.12, Premium $249,200, Exp: 10/17/2025
+  Put #3: Strike $42, Spot $41.14, ITM by $0.86, Premium $282,239, Exp: 10/17/2025
+  Put #4: Strike $45, Spot $41.20, ITM by $3.80, Premium $313,600, Exp: 10/17/2025
+  Put #5: Strike $42, Spot $41.32, ITM by $0.68, Premium $265,500, Exp: 10/17/2025
 
-FIGR (Current Price: $39.685):
-  Put #1: Strike $40, Spot $39.69, ITM by $0.31, Premium $207,183, Exp: 11/21/2025
-  Put #2: Strike $40, Spot $39.41, ITM by $0.59, Premium $543,280, Exp: 11/21/2025
+JPM (Current Price: $314.61):
+  Put #1: Strike $330, Spot $314.61, ITM by $15.39, Premium $312,000, Exp: 10/3/2025
 
-FND (Current Price: $87.1989):
-  Put #1: Strike $90, Spot $87.20, ITM by $2.80, Premium $247,173, Exp: 10/17/2025
+KGC (Current Price: $24.685):
+  Put #1: Strike $29, Spot $24.68, ITM by $4.32, Premium $245,220, Exp: 5/15/2026
 
-FUTU (Current Price: $173.37):
-  Put #1: Strike $185, Spot $173.37, ITM by $11.63, Premium $219,090, Exp: 9/19/2025
-  Put #2: Strike $185, Spot $173.40, ITM by $11.60, Premium $377,530, Exp: 9/19/2025
+LCID (Current Price: $23.665):
+  Put #1: Strike $25, Spot $23.66, ITM by $1.34, Premium $708,000, Exp: 2/20/2026
 
-GLW (Current Price: $79.3101):
-  Put #1: Strike $80, Spot $79.31, ITM by $0.69, Premium $287,100, Exp: 12/19/2025
+LEN (Current Price: $122.33):
+  Put #1: Strike $135, Spot $122.33, ITM by $12.67, Premium $300,000, Exp: 11/21/2025
 
-HOOD (Current Price: $122.385):
-  Put #1: Strike $124, Spot $122.39, ITM by $1.61, Premium $552,470, Exp: 9/26/2025
+LUV (Current Price: $33.325):
+  Put #1: Strike $35, Spot $33.33, ITM by $1.67, Premium $212,056, Exp: 1/16/2026
+  Put #2: Strike $35, Spot $33.34, ITM by $1.66, Premium $288,000, Exp: 1/16/2026
+  Put #3: Strike $35, Spot $33.28, ITM by $1.72, Premium $462,785, Exp: 11/21/2025
+  Put #4: Strike $35, Spot $33.20, ITM by $1.80, Premium $215,734, Exp: 11/21/2025
 
-HUT (Current Price: $38.07):
-  Put #1: Strike $46, Spot $38.07, ITM by $7.93, Premium $302,250, Exp: 10/17/2025
+META (Current Price: $756.01):
+  Put #1: Strike $762, Spot $756.01, ITM by $6.49, Premium $245,110, Exp: 9/26/2025
+  Put #2: Strike $755, Spot $754.33, ITM by $0.67, Premium $862,920, Exp: 11/21/2025
+  Put #3: Strike $765, Spot $754.46, ITM by $10.54, Premium $311,348, Exp: 9/26/2025
+  Put #4: Strike $770, Spot $751.90, ITM by $18.10, Premium $203,300, Exp: 9/26/2025
+  Put #5: Strike $770, Spot $751.45, ITM by $18.55, Premium $207,700, Exp: 9/26/2025
+  Put #6: Strike $770, Spot $751.90, ITM by $18.10, Premium $411,200, Exp: 9/26/2025
+  Put #7: Strike $770, Spot $751.98, ITM by $18.02, Premium $205,500, Exp: 9/26/2025
+  Put #8: Strike $780, Spot $761.17, ITM by $18.83, Premium $507,000, Exp: 10/3/2025
+  Put #9: Strike $780, Spot $762.10, ITM by $17.90, Premium $461,160, Exp: 10/3/2025
+  Put #10: Strike $780, Spot $763.41, ITM by $16.59, Premium $450,765, Exp: 10/3/2025
 
-IBM (Current Price: $264.645):
-  Put #1: Strike $290, Spot $264.64, ITM by $25.36, Premium $1,333,500, Exp: 9/19/2025
-  Put #2: Strike $285, Spot $264.64, ITM by $20.36, Premium $685,750, Exp: 9/19/2025
-  Put #3: Strike $280, Spot $264.64, ITM by $15.36, Premium $1,866,000, Exp: 9/19/2025
-  Put #4: Strike $295, Spot $264.64, ITM by $30.36, Premium $1,059,250, Exp: 9/19/2025
-  Put #5: Strike $285, Spot $263.64, ITM by $21.36, Premium $695,500, Exp: 9/19/2025
-  Put #6: Strike $290, Spot $263.64, ITM by $26.36, Premium $1,388,625, Exp: 9/19/2025
-  Put #7: Strike $295, Spot $263.64, ITM by $31.36, Premium $1,126,375, Exp: 9/19/2025
-  Put #8: Strike $280, Spot $263.64, ITM by $16.36, Premium $1,998,000, Exp: 9/19/2025
+MRVL (Current Price: $74.4899):
+  Put #1: Strike $80, Spot $74.49, ITM by $5.51, Premium $1,881,000, Exp: 2/20/2026
 
-INTC (Current Price: $30.6499):
-  Put #1: Strike $36, Spot $30.65, ITM by $5.35, Premium $355,320, Exp: 9/19/2025
-  Put #2: Strike $37, Spot $30.54, ITM by $6.46, Premium $208,650, Exp: 9/19/2025
-  Put #3: Strike $32, Spot $30.60, ITM by $1.40, Premium $246,001, Exp: 9/19/2025
-  Put #4: Strike $40, Spot $31.11, ITM by $8.89, Premium $205,865, Exp: 12/19/2025
-  Put #5: Strike $40, Spot $31.95, ITM by $8.05, Premium $297,600, Exp: 12/19/2025
-  Put #6: Strike $33, Spot $32.15, ITM by $0.85, Premium $563,000, Exp: 6/18/2026
-  Put #7: Strike $33, Spot $31.61, ITM by $1.39, Premium $226,000, Exp: 6/18/2026
-  Put #8: Strike $32, Spot $31.15, ITM by $0.85, Premium $246,000, Exp: 9/26/2025
-  Put #9: Strike $42, Spot $31.12, ITM by $10.88, Premium $238,825, Exp: 1/16/2026
+MU (Current Price: $168.54):
+  Put #1: Strike $170, Spot $168.54, ITM by $1.46, Premium $246,225, Exp: 10/3/2025
 
-JBL (Current Price: $223.1221):
-  Put #1: Strike $230, Spot $223.12, ITM by $6.88, Premium $4,635,000, Exp: 1/21/2028
+NFLX (Current Price: $1216.95):
+  Put #1: Strike $1220, Spot $1216.95, ITM by $3.05, Premium $367,513, Exp: 9/26/2025
 
-JNJ (Current Price: $175.12):
-  Put #1: Strike $180, Spot $175.12, ITM by $4.88, Premium $302,500, Exp: 10/17/2025
+OPEN (Current Price: $7.295):
+  Put #1: Strike $10, Spot $7.29, ITM by $2.21, Premium $1,750,000, Exp: 10/3/2025
+  Put #2: Strike $8, Spot $7.38, ITM by $0.12, Premium $228,800, Exp: 10/24/2025
+  Put #3: Strike $10, Spot $7.46, ITM by $2.54, Premium $1,865,916, Exp: 9/26/2025
+  Put #4: Strike $9, Spot $7.81, ITM by $1.19, Premium $1,396,350, Exp: 9/26/2025
 
-LEN (Current Price: $132.625):
-  Put #1: Strike $137, Spot $132.62, ITM by $4.38, Premium $502,500, Exp: 9/19/2025
+ORCL (Current Price: $311.435):
+  Put #1: Strike $325, Spot $311.44, ITM by $13.56, Premium $319,200, Exp: 9/26/2025
+  Put #2: Strike $320, Spot $311.21, ITM by $8.79, Premium $367,500, Exp: 9/26/2025
+  Put #3: Strike $320, Spot $311.58, ITM by $8.42, Premium $361,500, Exp: 9/26/2025
+  Put #4: Strike $328, Spot $314.83, ITM by $12.67, Premium $248,325, Exp: 9/26/2025
+  Put #5: Strike $315, Spot $311.14, ITM by $3.86, Premium $454,680, Exp: 9/26/2025
+  Put #6: Strike $315, Spot $311.11, ITM by $3.89, Premium $447,265, Exp: 9/26/2025
+  Put #7: Strike $322, Spot $314.09, ITM by $8.41, Premium $245,400, Exp: 9/26/2025
+  Put #8: Strike $325, Spot $314.00, ITM by $11.00, Premium $202,980, Exp: 10/10/2025
+  Put #9: Strike $322, Spot $314.24, ITM by $8.26, Premium $238,752, Exp: 9/26/2025
 
-LLY (Current Price: $761.4824):
-  Put #1: Strike $820, Spot $761.48, ITM by $58.52, Premium $4,697,175, Exp: 9/19/2025
-  Put #2: Strike $840, Spot $761.48, ITM by $78.52, Premium $8,921,350, Exp: 9/19/2025
-  Put #3: Strike $880, Spot $761.48, ITM by $118.52, Premium $1,818,550, Exp: 9/19/2025
-  Put #4: Strike $860, Spot $761.48, ITM by $98.52, Premium $1,745,625, Exp: 9/19/2025
-  Put #5: Strike $840, Spot $761.45, ITM by $78.55, Premium $8,797,500, Exp: 9/19/2025
-  Put #6: Strike $860, Spot $761.45, ITM by $98.55, Premium $1,719,375, Exp: 9/19/2025
-  Put #7: Strike $850, Spot $761.45, ITM by $88.55, Premium $12,397,000, Exp: 9/19/2025
-  Put #8: Strike $880, Spot $761.45, ITM by $118.55, Premium $1,790,250, Exp: 9/19/2025
-  Put #9: Strike $960, Spot $761.45, ITM by $198.55, Premium $1,957,675, Exp: 9/19/2025
+PDD (Current Price: $129.92):
+  Put #1: Strike $130, Spot $129.92, ITM by $0.08, Premium $1,485,000, Exp: 1/15/2027
+  Put #2: Strike $130, Spot $127.30, ITM by $2.70, Premium $4,787,200, Exp: 10/24/2025
+  Put #3: Strike $130, Spot $128.00, ITM by $2.00, Premium $6,041,676, Exp: 10/24/2025
 
-MARA (Current Price: $19.05):
-  Put #1: Strike $23, Spot $19.05, ITM by $3.95, Premium $226,125, Exp: 3/20/2026
-  Put #2: Strike $18, Spot $17.59, ITM by $0.41, Premium $203,002, Exp: 12/19/2025
+PG (Current Price: $151.25):
+  Put #1: Strike $155, Spot $151.25, ITM by $3.75, Premium $200,205, Exp: 11/21/2025
 
-META (Current Price: $779.605):
-  Put #1: Strike $785, Spot $779.61, ITM by $5.39, Premium $462,150, Exp: 9/26/2025
-  Put #2: Strike $785, Spot $782.00, ITM by $3.00, Premium $288,000, Exp: 9/26/2025
-  Put #3: Strike $790, Spot $784.57, ITM by $5.43, Premium $320,000, Exp: 9/26/2025
+PL (Current Price: $11.8565):
+  Put #1: Strike $12, Spot $11.86, ITM by $0.14, Premium $209,902, Exp: 10/10/2025
 
-MO (Current Price: $64.375):
-  Put #1: Strike $65, Spot $64.38, ITM by $0.62, Premium $438,558, Exp: 12/19/2025
-  Put #2: Strike $65, Spot $64.41, ITM by $0.59, Premium $215,736, Exp: 12/19/2025
+PLTR (Current Price: $181.9):
+  Put #1: Strike $190, Spot $181.90, ITM by $8.10, Premium $460,189, Exp: 9/26/2025
+  Put #2: Strike $190, Spot $179.71, ITM by $10.29, Premium $301,840, Exp: 10/17/2025
+  Put #3: Strike $190, Spot $180.83, ITM by $9.17, Premium $501,000, Exp: 9/26/2025
+  Put #4: Strike $190, Spot $185.25, ITM by $4.75, Premium $351,400, Exp: 9/26/2025
 
-MRVL (Current Price: $74.585):
-  Put #1: Strike $95, Spot $74.58, ITM by $20.42, Premium $476,404, Exp: 12/17/2027
-  Put #2: Strike $75, Spot $74.19, ITM by $0.81, Premium $539,410, Exp: 12/19/2025
-  Put #3: Strike $75, Spot $74.93, ITM by $0.07, Premium $570,900, Exp: 1/16/2026
-  Put #4: Strike $74, Spot $73.69, ITM by $0.31, Premium $406,432, Exp: 9/26/2025
+QCOM (Current Price: $168.72):
+  Put #1: Strike $170, Spot $168.72, ITM by $1.28, Premium $282,000, Exp: 11/21/2025
 
-MSFT (Current Price: $508.43):
-  Put #1: Strike $510, Spot $508.43, ITM by $1.57, Premium $371,110, Exp: 3/20/2026
-  Put #2: Strike $520, Spot $508.58, ITM by $11.42, Premium $676,944, Exp: 10/31/2025
-  Put #3: Strike $510, Spot $509.40, ITM by $0.60, Premium $443,770, Exp: 12/19/2025
+RGTI (Current Price: $31.2871):
+  Put #1: Strike $35, Spot $31.29, ITM by $3.71, Premium $269,780, Exp: 11/21/2025
+  Put #2: Strike $30, Spot $29.82, ITM by $0.18, Premium $212,500, Exp: 10/17/2025
+  Put #3: Strike $30, Spot $29.98, ITM by $0.02, Premium $212,075, Exp: 10/17/2025
+  Put #4: Strike $30, Spot $29.92, ITM by $0.08, Premium $212,722, Exp: 10/17/2025
+  Put #5: Strike $30, Spot $29.92, ITM by $0.08, Premium $212,500, Exp: 10/17/2025
 
-MU (Current Price: $168.56):
-  Put #1: Strike $170, Spot $168.56, ITM by $1.44, Premium $215,380, Exp: 10/17/2025
-  Put #2: Strike $170, Spot $169.16, ITM by $0.84, Premium $236,555, Exp: 9/26/2025
-  Put #3: Strike $175, Spot $169.26, ITM by $5.74, Premium $612,324, Exp: 9/26/2025
-  Put #4: Strike $170, Spot $168.97, ITM by $1.03, Premium $467,171, Exp: 9/26/2025
+SHOP (Current Price: $152.14):
+  Put #1: Strike $155, Spot $152.14, ITM by $2.86, Premium $448,500, Exp: 11/21/2025
+  Put #2: Strike $155, Spot $152.67, ITM by $2.33, Premium $439,560, Exp: 11/21/2025
 
-NBIS (Current Price: $94.8):
-  Put #1: Strike $100, Spot $94.80, ITM by $5.20, Premium $275,000, Exp: 9/19/2025
+SOFI (Current Price: $28.9049):
+  Put #1: Strike $35, Spot $28.90, ITM by $6.10, Premium $211,372, Exp: 9/18/2026
 
-NFLX (Current Price: $1206.27):
-  Put #1: Strike $1208, Spot $1206.27, ITM by $1.23, Premium $206,037, Exp: 9/19/2025
-  Put #2: Strike $1208, Spot $1205.94, ITM by $1.56, Premium $230,612, Exp: 9/19/2025
+TSLA (Current Price: $425.81):
+  Put #1: Strike $435, Spot $425.81, ITM by $9.19, Premium $281,006, Exp: 9/26/2025
+  Put #2: Strike $430, Spot $425.80, ITM by $4.20, Premium $225,630, Exp: 9/26/2025
+  Put #3: Strike $435, Spot $426.46, ITM by $8.54, Premium $205,500, Exp: 9/26/2025
+  Put #4: Strike $430, Spot $429.01, ITM by $0.99, Premium $467,500, Exp: 9/26/2025
+  Put #5: Strike $430, Spot $429.04, ITM by $0.96, Premium $371,070, Exp: 9/26/2025
+  Put #6: Strike $430, Spot $428.52, ITM by $1.48, Premium $254,190, Exp: 9/26/2025
+  Put #7: Strike $430, Spot $428.77, ITM by $1.23, Premium $566,995, Exp: 9/26/2025
+  Put #8: Strike $430, Spot $429.15, ITM by $0.85, Premium $559,620, Exp: 9/26/2025
+  Put #9: Strike $450, Spot $427.88, ITM by $22.12, Premium $2,237,000, Exp: 1/15/2027
+  Put #10: Strike $448, Spot $427.86, ITM by $19.64, Premium $232,050, Exp: 9/26/2025
+  Put #11: Strike $430, Spot $426.54, ITM by $3.46, Premium $217,200, Exp: 10/3/2025
+  Put #12: Strike $430, Spot $426.38, ITM by $3.62, Premium $255,025, Exp: 10/17/2025
+  Put #13: Strike $430, Spot $426.87, ITM by $3.13, Premium $212,011, Exp: 9/26/2025
+  Put #14: Strike $430, Spot $427.36, ITM by $2.64, Premium $209,000, Exp: 9/26/2025
+  Put #15: Strike $438, Spot $426.36, ITM by $11.14, Premium $236,250, Exp: 9/26/2025
+  Put #16: Strike $425, Spot $424.00, ITM by $1.00, Premium $326,605, Exp: 9/26/2025
+  Put #17: Strike $428, Spot $424.90, ITM by $2.60, Premium $206,970, Exp: 9/26/2025
+  Put #18: Strike $425, Spot $424.38, ITM by $0.62, Premium $470,003, Exp: 9/26/2025
+  Put #19: Strike $430, Spot $425.02, ITM by $4.98, Premium $205,320, Exp: 9/26/2025
+  Put #20: Strike $430, Spot $425.02, ITM by $4.98, Premium $574,600, Exp: 10/17/2025
+  Put #21: Strike $430, Spot $426.32, ITM by $3.68, Premium $506,000, Exp: 10/17/2025
+  Put #22: Strike $460, Spot $427.44, ITM by $32.56, Premium $1,040,000, Exp: 8/21/2026
+  Put #23: Strike $438, Spot $427.80, ITM by $9.70, Premium $268,450, Exp: 9/26/2025
+  Put #24: Strike $435, Spot $428.14, ITM by $6.86, Premium $388,500, Exp: 9/26/2025
+  Put #25: Strike $442, Spot $428.15, ITM by $14.35, Premium $543,000, Exp: 9/26/2025
+  Put #26: Strike $438, Spot $428.05, ITM by $9.45, Premium $313,375, Exp: 10/17/2025
+  Put #27: Strike $450, Spot $429.44, ITM by $20.56, Premium $464,000, Exp: 9/26/2025
+  Put #28: Strike $440, Spot $428.19, ITM by $11.81, Premium $247,575, Exp: 9/26/2025
+  Put #29: Strike $430, Spot $427.81, ITM by $2.19, Premium $490,000, Exp: 10/17/2025
+  Put #30: Strike $430, Spot $427.74, ITM by $2.26, Premium $272,404, Exp: 9/26/2025
+  Put #31: Strike $430, Spot $427.65, ITM by $2.35, Premium $495,000, Exp: 10/17/2025
+  Put #32: Strike $430, Spot $426.93, ITM by $3.07, Premium $500,000, Exp: 10/17/2025
+  Put #33: Strike $450, Spot $426.61, ITM by $23.39, Premium $509,440, Exp: 9/26/2025
+  Put #34: Strike $435, Spot $425.04, ITM by $9.96, Premium $220,447, Exp: 9/26/2025
+  Put #35: Strike $430, Spot $426.91, ITM by $3.09, Premium $500,000, Exp: 10/17/2025
+  Put #36: Strike $430, Spot $426.93, ITM by $3.07, Premium $504,000, Exp: 10/17/2025
+  Put #37: Strike $430, Spot $426.56, ITM by $3.44, Premium $228,960, Exp: 9/26/2025
+  Put #38: Strike $430, Spot $426.61, ITM by $3.39, Premium $260,169, Exp: 9/26/2025
+  Put #39: Strike $430, Spot $428.39, ITM by $1.61, Premium $498,120, Exp: 10/17/2025
+  Put #40: Strike $430, Spot $429.06, ITM by $0.94, Premium $221,015, Exp: 9/26/2025
+  Put #41: Strike $450, Spot $432.91, ITM by $17.09, Premium $201,500, Exp: 9/26/2025
+  Put #42: Strike $438, Spot $434.03, ITM by $3.47, Premium $212,000, Exp: 9/26/2025
+  Put #43: Strike $450, Spot $433.95, ITM by $16.05, Premium $289,060, Exp: 9/26/2025
+  Put #44: Strike $435, Spot $434.76, ITM by $0.24, Premium $265,500, Exp: 9/26/2025
+  Put #45: Strike $435, Spot $434.16, ITM by $0.84, Premium $226,020, Exp: 9/26/2025
+  Put #46: Strike $442, Spot $434.37, ITM by $8.13, Premium $270,000, Exp: 9/26/2025
+  Put #47: Strike $438, Spot $432.94, ITM by $4.56, Premium $226,000, Exp: 9/26/2025
+  Put #48: Strike $435, Spot $433.14, ITM by $1.86, Premium $488,755, Exp: 9/26/2025
+  Put #49: Strike $442, Spot $434.11, ITM by $8.39, Premium $548,010, Exp: 9/26/2025
+  Put #50: Strike $442, Spot $434.37, ITM by $8.13, Premium $203,416, Exp: 9/26/2025
+  Put #51: Strike $435, Spot $433.07, ITM by $1.93, Premium $238,000, Exp: 10/3/2025
+  Put #52: Strike $435, Spot $432.79, ITM by $2.21, Premium $332,710, Exp: 10/3/2025
+  Put #53: Strike $435, Spot $432.25, ITM by $2.75, Premium $348,010, Exp: 10/3/2025
+  Put #54: Strike $435, Spot $431.74, ITM by $3.26, Premium $318,600, Exp: 10/3/2025
+  Put #55: Strike $432, Spot $432.19, ITM by $0.31, Premium $217,928, Exp: 9/26/2025
+  Put #56: Strike $440, Spot $433.43, ITM by $6.57, Premium $213,384, Exp: 9/26/2025
+  Put #57: Strike $435, Spot $431.95, ITM by $3.05, Premium $325,439, Exp: 9/26/2025
+  Put #58: Strike $445, Spot $432.29, ITM by $12.71, Premium $334,800, Exp: 10/17/2025
+  Put #59: Strike $445, Spot $434.05, ITM by $10.95, Premium $275,070, Exp: 9/26/2025
+  Put #60: Strike $438, Spot $436.40, ITM by $1.10, Premium $234,321, Exp: 9/26/2025
+  Put #61: Strike $450, Spot $437.12, ITM by $12.88, Premium $1,326,000, Exp: 12/17/2027
+  Put #62: Strike $445, Spot $438.40, ITM by $6.60, Premium $272,700, Exp: 9/26/2025
+  Put #63: Strike $435, Spot $434.69, ITM by $0.31, Premium $319,970, Exp: 9/26/2025
+  Put #64: Strike $445, Spot $434.87, ITM by $10.13, Premium $315,109, Exp: 9/26/2025
+  Put #65: Strike $445, Spot $437.25, ITM by $7.75, Premium $260,000, Exp: 9/26/2025
 
-NVO (Current Price: $61.8148):
-  Put #1: Strike $70, Spot $61.81, ITM by $8.19, Premium $227,000, Exp: 1/16/2026
+UAL (Current Price: $105.63):
+  Put #1: Strike $110, Spot $105.63, ITM by $4.37, Premium $290,160, Exp: 10/3/2025
+  Put #2: Strike $110, Spot $105.64, ITM by $4.36, Premium $219,450, Exp: 10/3/2025
 
-OKLO (Current Price: $104.79):
-  Put #1: Strike $105, Spot $104.79, ITM by $0.21, Premium $388,500, Exp: 3/20/2026
-  Put #2: Strike $110, Spot $106.47, ITM by $3.53, Premium $679,500, Exp: 12/19/2025
-  Put #3: Strike $110, Spot $106.20, ITM by $3.80, Premium $715,050, Exp: 12/19/2025
-  Put #4: Strike $110, Spot $107.97, ITM by $2.03, Premium $258,528, Exp: 9/19/2025
-  Put #5: Strike $110, Spot $108.10, ITM by $1.90, Premium $517,995, Exp: 3/20/2026
+UNH (Current Price: $348.15):
+  Put #1: Strike $350, Spot $348.15, ITM by $1.85, Premium $233,445, Exp: 10/10/2025
+  Put #2: Strike $352, Spot $352.30, ITM by $0.20, Premium $447,630, Exp: 10/17/2025
+  Put #3: Strike $355, Spot $352.30, ITM by $2.70, Premium $400,000, Exp: 10/24/2025
+  Put #4: Strike $360, Spot $352.01, ITM by $7.99, Premium $519,040, Exp: 3/20/2026
+  Put #5: Strike $350, Spot $349.25, ITM by $0.75, Premium $420,875, Exp: 10/17/2025
 
-ORCL (Current Price: $298.2866):
-  Put #1: Strike $300, Spot $298.29, ITM by $1.71, Premium $248,366, Exp: 9/26/2025
-  Put #2: Strike $310, Spot $301.23, ITM by $8.77, Premium $224,919, Exp: 10/17/2025
-  Put #3: Strike $300, Spot $299.91, ITM by $0.09, Premium $451,000, Exp: 6/18/2026
+W (Current Price: $83.85):
+  Put #1: Strike $88, Spot $83.85, ITM by $3.65, Premium $416,000, Exp: 1/16/2026
 
-OXY (Current Price: $47.28):
-  Put #1: Strike $60, Spot $47.28, ITM by $12.72, Premium $1,134,750, Exp: 9/19/2025
-  Put #2: Strike $55, Spot $47.28, ITM by $7.72, Premium $527,000, Exp: 9/19/2025
+WMB (Current Price: $61.615):
+  Put #1: Strike $65, Spot $61.62, ITM by $3.38, Premium $327,760, Exp: 6/18/2026
 
-PAAS (Current Price: $34.95):
-  Put #1: Strike $37, Spot $34.95, ITM by $2.05, Premium $206,500, Exp: 10/24/2025
-
-PDD (Current Price: $134.265):
-  Put #1: Strike $180, Spot $134.26, ITM by $45.74, Premium $1,180,000, Exp: 3/20/2026
-  Put #2: Strike $170, Spot $134.20, ITM by $35.80, Premium $966,250, Exp: 3/20/2026
-
-PLTR (Current Price: $177.53):
-  Put #1: Strike $185, Spot $177.53, ITM by $7.47, Premium $382,500, Exp: 9/19/2025
-  Put #2: Strike $180, Spot $176.73, ITM by $3.27, Premium $438,600, Exp: 9/26/2025
-  Put #3: Strike $180, Spot $175.13, ITM by $4.87, Premium $241,000, Exp: 10/17/2025
-  Put #4: Strike $178, Spot $174.39, ITM by $3.11, Premium $295,020, Exp: 10/10/2025
-  Put #5: Strike $195, Spot $175.23, ITM by $19.77, Premium $4,327,500, Exp: 11/21/2025
-  Put #6: Strike $185, Spot $174.69, ITM by $10.31, Premium $2,292,490, Exp: 10/10/2025
-  Put #7: Strike $178, Spot $173.54, ITM by $3.96, Premium $351,614, Exp: 9/19/2025
-
-PM (Current Price: $162.2704):
-  Put #1: Strike $175, Spot $162.27, ITM by $12.73, Premium $6,350,000, Exp: 9/19/2025
-  Put #2: Strike $180, Spot $162.27, ITM by $17.73, Premium $8,407,500, Exp: 9/19/2025
-  Put #3: Strike $185, Spot $162.27, ITM by $22.73, Premium $568,500, Exp: 9/19/2025
-  Put #4: Strike $165, Spot $163.76, ITM by $1.24, Premium $219,000, Exp: 10/24/2025
-
-PYPL (Current Price: $69.57):
-  Put #1: Strike $75, Spot $69.57, ITM by $5.43, Premium $3,168,000, Exp: 9/18/2026
-
-RKLB (Current Price: $48.2726):
-  Put #1: Strike $60, Spot $48.27, ITM by $11.73, Premium $4,491,600, Exp: 12/19/2025
-
-SNDK (Current Price: $98.065):
-  Put #1: Strike $100, Spot $98.06, ITM by $1.94, Premium $469,987, Exp: 10/17/2025
-
-TMO (Current Price: $479.845):
-  Put #1: Strike $540, Spot $479.85, ITM by $60.15, Premium $721,200, Exp: 9/19/2025
-  Put #2: Strike $570, Spot $479.85, ITM by $90.15, Premium $4,530,500, Exp: 9/19/2025
-  Put #3: Strike $520, Spot $479.85, ITM by $40.15, Premium $1,421,000, Exp: 9/19/2025
-  Put #4: Strike $530, Spot $479.85, ITM by $50.15, Premium $2,012,000, Exp: 9/19/2025
-  Put #5: Strike $510, Spot $479.85, ITM by $30.15, Premium $1,113,700, Exp: 9/19/2025
-
-TSLA (Current Price: $416.93):
-  Put #1: Strike $420, Spot $416.93, ITM by $3.07, Premium $208,945, Exp: 9/19/2025
-  Put #2: Strike $420, Spot $416.91, ITM by $3.09, Premium $215,340, Exp: 9/26/2025
-  Put #3: Strike $428, Spot $418.70, ITM by $8.80, Premium $221,000, Exp: 9/19/2025
-  Put #4: Strike $422, Spot $419.32, ITM by $3.18, Premium $296,000, Exp: 9/26/2025
-  Put #5: Strike $422, Spot $421.22, ITM by $1.28, Premium $276,000, Exp: 9/26/2025
-  Put #6: Strike $430, Spot $423.21, ITM by $6.79, Premium $1,253,000, Exp: 12/17/2027
-  Put #7: Strike $460, Spot $423.34, ITM by $36.66, Premium $2,382,100, Exp: 1/21/2028
-  Put #8: Strike $460, Spot $423.38, ITM by $36.62, Premium $2,308,800, Exp: 12/17/2027
-  Put #9: Strike $445, Spot $423.71, ITM by $21.29, Premium $329,230, Exp: 9/19/2025
-  Put #10: Strike $445, Spot $423.65, ITM by $21.35, Premium $330,150, Exp: 9/19/2025
-  Put #11: Strike $445, Spot $423.06, ITM by $21.94, Premium $338,526, Exp: 9/19/2025
-  Put #12: Strike $442, Spot $423.13, ITM by $19.37, Premium $302,538, Exp: 9/19/2025
-  Put #13: Strike $442, Spot $423.50, ITM by $19.00, Premium $297,300, Exp: 9/19/2025
-  Put #14: Strike $590, Spot $423.68, ITM by $166.32, Premium $2,511,000, Exp: 9/19/2025
-  Put #15: Strike $500, Spot $423.68, ITM by $76.32, Premium $3,213,000, Exp: 9/19/2025
-  Put #16: Strike $450, Spot $424.10, ITM by $25.90, Premium $394,745, Exp: 9/19/2025
-  Put #17: Strike $450, Spot $423.40, ITM by $26.60, Premium $324,836, Exp: 9/19/2025
-  Put #18: Strike $460, Spot $423.73, ITM by $36.27, Premium $546,450, Exp: 9/19/2025
-  Put #19: Strike $428, Spot $423.03, ITM by $4.47, Premium $326,250, Exp: 10/3/2025
-  Put #20: Strike $425, Spot $423.25, ITM by $1.75, Premium $284,000, Exp: 9/26/2025
-  Put #21: Strike $435, Spot $425.41, ITM by $9.59, Premium $470,920, Exp: 9/19/2025
-  Put #22: Strike $432, Spot $424.90, ITM by $7.60, Premium $515,545, Exp: 9/19/2025
-  Put #23: Strike $450, Spot $422.67, ITM by $27.33, Premium $277,000, Exp: 9/19/2025
-  Put #24: Strike $422, Spot $422.28, ITM by $0.22, Premium $310,000, Exp: 9/19/2025
-  Put #25: Strike $430, Spot $424.18, ITM by $5.82, Premium $273,600, Exp: 10/3/2025
-  Put #26: Strike $430, Spot $424.66, ITM by $5.34, Premium $225,760, Exp: 9/26/2025
-  Put #27: Strike $460, Spot $425.97, ITM by $34.03, Premium $513,598, Exp: 9/19/2025
-  Put #28: Strike $430, Spot $426.33, ITM by $3.67, Premium $800,730, Exp: 10/31/2025
-  Put #29: Strike $460, Spot $426.05, ITM by $33.95, Premium $515,252, Exp: 9/19/2025
-  Put #30: Strike $435, Spot $426.17, ITM by $8.83, Premium $229,000, Exp: 9/19/2025
-  Put #31: Strike $430, Spot $427.99, ITM by $2.01, Premium $210,700, Exp: 9/19/2025
-  Put #32: Strike $430, Spot $428.68, ITM by $1.32, Premium $1,736,405, Exp: 9/26/2025
-  Put #33: Strike $438, Spot $429.58, ITM by $7.92, Premium $877,487, Exp: 9/19/2025
-  Put #34: Strike $430, Spot $429.88, ITM by $0.12, Premium $470,000, Exp: 10/10/2025
-  Put #35: Strike $438, Spot $428.83, ITM by $8.67, Premium $233,000, Exp: 9/19/2025
-  Put #36: Strike $438, Spot $428.75, ITM by $8.75, Premium $233,000, Exp: 9/19/2025
-  Put #37: Strike $438, Spot $428.80, ITM by $8.70, Premium $229,025, Exp: 9/19/2025
-  Put #38: Strike $435, Spot $428.72, ITM by $6.28, Premium $206,939, Exp: 9/19/2025
-  Put #39: Strike $435, Spot $427.51, ITM by $7.49, Premium $670,130, Exp: 9/19/2025
-  Put #40: Strike $465, Spot $428.33, ITM by $36.67, Premium $401,500, Exp: 9/26/2025
-  Put #41: Strike $465, Spot $428.00, ITM by $37.00, Premium $405,000, Exp: 9/26/2025
-  Put #42: Strike $465, Spot $425.88, ITM by $39.12, Premium $425,000, Exp: 9/26/2025
-  Put #43: Strike $430, Spot $425.31, ITM by $4.69, Premium $347,540, Exp: 9/26/2025
-  Put #44: Strike $428, Spot $426.47, ITM by $1.03, Premium $216,036, Exp: 9/19/2025
-  Put #45: Strike $465, Spot $427.00, ITM by $38.00, Premium $451,500, Exp: 10/3/2025
-  Put #46: Strike $460, Spot $428.06, ITM by $31.94, Premium $325,406, Exp: 9/19/2025
-  Put #47: Strike $465, Spot $430.87, ITM by $34.13, Premium $433,000, Exp: 10/3/2025
-  Put #48: Strike $430, Spot $429.32, ITM by $0.68, Premium $290,000, Exp: 9/26/2025
-
-TTWO (Current Price: $251.075):
-  Put #1: Strike $260, Spot $251.07, ITM by $8.93, Premium $623,040, Exp: 3/20/2026
-
-UNH (Current Price: $336.1267):
-  Put #1: Strike $340, Spot $336.13, ITM by $3.87, Premium $1,279,467, Exp: 12/19/2025
-  Put #2: Strike $530, Spot $336.16, ITM by $193.84, Premium $24,902,400, Exp: 9/19/2025
-  Put #3: Strike $540, Spot $336.16, ITM by $203.84, Premium $32,208,750, Exp: 9/19/2025
-  Put #4: Strike $410, Spot $336.18, ITM by $73.82, Premium $16,472,400, Exp: 9/19/2025
-  Put #5: Strike $440, Spot $336.18, ITM by $103.82, Premium $8,344,000, Exp: 9/19/2025
-  Put #6: Strike $420, Spot $336.18, ITM by $83.82, Premium $3,144,375, Exp: 9/19/2025
-  Put #7: Strike $375, Spot $336.18, ITM by $38.82, Premium $843,875, Exp: 9/19/2025
-  Put #8: Strike $380, Spot $336.18, ITM by $43.82, Premium $6,563,550, Exp: 9/19/2025
-  Put #9: Strike $430, Spot $336.18, ITM by $93.82, Premium $19,274,125, Exp: 9/19/2025
-  Put #10: Strike $470, Spot $336.18, ITM by $133.82, Premium $7,456,400, Exp: 9/19/2025
-  Put #11: Strike $390, Spot $336.18, ITM by $53.82, Premium $5,662,800, Exp: 9/19/2025
-  Put #12: Strike $460, Spot $336.18, ITM by $123.82, Premium $6,930,000, Exp: 9/19/2025
-  Put #13: Strike $450, Spot $336.18, ITM by $113.82, Premium $14,030,000, Exp: 9/19/2025
-  Put #14: Strike $370, Spot $336.18, ITM by $33.82, Premium $12,669,225, Exp: 9/19/2025
-  Put #15: Strike $400, Spot $336.18, ITM by $63.82, Premium $3,732,300, Exp: 9/19/2025
-  Put #16: Strike $375, Spot $335.85, ITM by $39.15, Premium $7,334,000, Exp: 9/19/2025
-  Put #17: Strike $440, Spot $335.85, ITM by $104.15, Premium $10,460,000, Exp: 9/19/2025
-  Put #18: Strike $410, Spot $335.85, ITM by $74.15, Premium $20,776,000, Exp: 9/19/2025
-  Put #19: Strike $400, Spot $335.85, ITM by $64.15, Premium $4,788,750, Exp: 9/19/2025
-  Put #20: Strike $390, Spot $335.85, ITM by $54.15, Premium $3,787,000, Exp: 9/19/2025
-  Put #21: Strike $420, Spot $335.85, ITM by $84.15, Premium $4,018,500, Exp: 9/19/2025
-  Put #22: Strike $430, Spot $335.85, ITM by $94.15, Premium $23,575,000, Exp: 9/19/2025
-  Put #23: Strike $380, Spot $335.85, ITM by $44.15, Premium $5,442,000, Exp: 9/19/2025
-  Put #24: Strike $470, Spot $335.85, ITM by $134.15, Premium $9,439,500, Exp: 9/19/2025
-  Put #25: Strike $460, Spot $335.85, ITM by $124.15, Premium $8,666,000, Exp: 9/19/2025
-  Put #26: Strike $450, Spot $335.85, ITM by $114.15, Premium $6,267,250, Exp: 9/19/2025
-  Put #27: Strike $530, Spot $335.92, ITM by $194.08, Premium $31,128,000, Exp: 9/19/2025
-  Put #28: Strike $540, Spot $335.92, ITM by $204.08, Premium $40,890,000, Exp: 9/19/2025
-  Put #29: Strike $450, Spot $335.92, ITM by $114.08, Premium $10,891,750, Exp: 9/19/2025
-  Put #30: Strike $460, Spot $335.23, ITM by $124.77, Premium $3,732,000, Exp: 9/19/2025
-  Put #31: Strike $430, Spot $335.23, ITM by $94.77, Premium $8,514,000, Exp: 9/19/2025
-  Put #32: Strike $450, Spot $335.23, ITM by $114.77, Premium $6,894,000, Exp: 9/19/2025
-  Put #33: Strike $440, Spot $335.23, ITM by $104.77, Premium $3,132,000, Exp: 9/19/2025
-  Put #34: Strike $420, Spot $335.23, ITM by $84.77, Premium $1,266,000, Exp: 9/19/2025
-  Put #35: Strike $410, Spot $335.23, ITM by $74.77, Premium $5,658,750, Exp: 9/19/2025
-
-WMT (Current Price: $104.1735):
-  Put #1: Strike $115, Spot $104.17, ITM by $10.83, Premium $242,950, Exp: 12/19/2025
-  Put #2: Strike $115, Spot $104.26, ITM by $10.74, Premium $226,000, Exp: 12/19/2025
-
-WOLF (Current Price: $2.86):
-  Put #1: Strike $4, Spot $2.86, ITM by $1.14, Premium $1,005,086, Exp: 11/21/2025
+WMT (Current Price: $101.655):
+  Put #1: Strike $105, Spot $101.66, ITM by $3.34, Premium $202,395, Exp: 1/16/2026
 
 ANALYSIS METADATA:
 ==================
-- Analysis completed: 2025-09-19 11:42:58
+- Analysis completed: 2025-09-24 00:11:45
 - Files processed: OptionsFlow.csv, Low_RSI.csv, OptionsFlow_master.xlsx
 - Output files: Big_ITM_PUTS.xlsx, ITM_Analysis_Summary.txt
-- Processing time: 28.00 seconds
+- Processing time: 69.01 seconds
 
 DISCLAIMER:
 ===========
