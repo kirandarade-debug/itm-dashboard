@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 import base64
 import re
 import os
-import pandas as pd
+#import pandas as pd
 from datetime import datetime
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
