@@ -15,7 +15,7 @@ server = app.server  # This is important for deployment
 def load_short_interest_tickers():
     """Load tickers from finviz_short.csv for short interest indicator"""
     try:
-        short_df = pd.read_csv("C:\Data_Files\output_files\/finviz_short.csv")
+        short_df = pd.read_csv("finviz_short.csv")
         if 'Ticker' in short_df.columns:
             short_tickers = set(short_df['Ticker'].str.strip().str.upper())
             print(f"✓ Loaded {len(short_tickers)} tickers from finviz_short.csv")
